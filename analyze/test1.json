@@ -1,0 +1,7005 @@
+{
+  "question_block": [],
+  "recognize_warn_code_conf": [],
+  "session_id": "reqId-796adf495c2bec9e776d3-0d4a94e7-4",
+  "angle": 0.0,
+  "items": [
+    {
+      "candword": [],
+      "itemconf": 0.999229371547699,
+      "itemstring": "梁皓",
+      "itemcoord": {
+        "x": 811,
+        "width": 160,
+        "y": 133,
+        "height": 78
+      },
+      "coordpoint": {
+        "x": [
+          811,
+          133,
+          970,
+          133,
+          970,
+          210,
+          811,
+          210
+        ]
+      },
+      "words": [
+        {
+          "character": "梁",
+          "confidence": 0.9992578625679016
+        },
+        {
+          "character": "皓",
+          "confidence": 0.9992008805274963
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 0,
+        "word_size": 66
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.8790180087089539,
+      "itemstring": "昭nano71.com日 1742968988@qq.com 8 +86 13520944872",
+      "itemcoord": {
+        "x": 665,
+        "width": 473,
+        "y": 254,
+        "height": 22
+      },
+      "coordpoint": {
+        "x": [
+          665,
+          254,
+          1137,
+          254,
+          1137,
+          275,
+          665,
+          275
+        ]
+      },
+      "words": [
+        {
+          "character": "昭",
+          "confidence": 0.2860052287578583
+        },
+        {
+          "character": "n",
+          "confidence": 0.9984419941902161
+        },
+        {
+          "character": "a",
+          "confidence": 0.999909520149231
+        },
+        {
+          "character": "n",
+          "confidence": 0.9994231462478638
+        },
+        {
+          "character": "o",
+          "confidence": 0.9935465455055237
+        },
+        {
+          "character": "7",
+          "confidence": 0.991270899772644
+        },
+        {
+          "character": "1",
+          "confidence": 0.9963482022285461
+        },
+        {
+          "character": ".",
+          "confidence": 0.9968886971473694
+        },
+        {
+          "character": "c",
+          "confidence": 0.9998465776443481
+        },
+        {
+          "character": "o",
+          "confidence": 0.9986950755119324
+        },
+        {
+          "character": "m",
+          "confidence": 0.999890923500061
+        },
+        {
+          "character": "日",
+          "confidence": 0.40984946489334106
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "1",
+          "confidence": 0.9995465874671936
+        },
+        {
+          "character": "7",
+          "confidence": 0.9995492100715637
+        },
+        {
+          "character": "4",
+          "confidence": 0.9998157620429993
+        },
+        {
+          "character": "2",
+          "confidence": 0.9994213581085205
+        },
+        {
+          "character": "9",
+          "confidence": 0.999211311340332
+        },
+        {
+          "character": "6",
+          "confidence": 0.9996598958969116
+        },
+        {
+          "character": "8",
+          "confidence": 0.9983116388320923
+        },
+        {
+          "character": "9",
+          "confidence": 0.999610960483551
+        },
+        {
+          "character": "8",
+          "confidence": 0.9998821020126343
+        },
+        {
+          "character": "8",
+          "confidence": 0.9998328685760498
+        },
+        {
+          "character": "@",
+          "confidence": 0.9999765157699585
+        },
+        {
+          "character": "q",
+          "confidence": 0.9992907047271729
+        },
+        {
+          "character": "q",
+          "confidence": 0.9982750415802002
+        },
+        {
+          "character": ".",
+          "confidence": 0.999580442905426
+        },
+        {
+          "character": "c",
+          "confidence": 0.9998906850814819
+        },
+        {
+          "character": "o",
+          "confidence": 0.999589741230011
+        },
+        {
+          "character": "m",
+          "confidence": 0.9998840093612671
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "8",
+          "confidence": 0.5393251180648804
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "+",
+          "confidence": 0.9998785257339478
+        },
+        {
+          "character": "8",
+          "confidence": 0.9996985197067261
+        },
+        {
+          "character": "6",
+          "confidence": 0.9999724626541138
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "1",
+          "confidence": 0.9998835325241089
+        },
+        {
+          "character": "3",
+          "confidence": 0.9997683167457581
+        },
+        {
+          "character": "5",
+          "confidence": 0.9999353885650635
+        },
+        {
+          "character": "2",
+          "confidence": 0.9991366267204285
+        },
+        {
+          "character": "0",
+          "confidence": 0.9997808337211609
+        },
+        {
+          "character": "9",
+          "confidence": 0.9997043013572693
+        },
+        {
+          "character": "4",
+          "confidence": 0.9995682835578918
+        },
+        {
+          "character": "4",
+          "confidence": 0.9996047616004944
+        },
+        {
+          "character": "8",
+          "confidence": 0.9954060316085815
+        },
+        {
+          "character": "7",
+          "confidence": 0.9999054670333862
+        },
+        {
+          "character": "2",
+          "confidence": 0.9998509883880615
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 1,
+        "word_size": 18
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9999980926513672,
+      "itemstring": "教育经历",
+      "itemcoord": {
+        "x": 544,
+        "width": 129,
+        "y": 300,
+        "height": 38
+      },
+      "coordpoint": {
+        "x": [
+          544,
+          300,
+          672,
+          300,
+          672,
+          337,
+          544,
+          337
+        ]
+      },
+      "words": [
+        {
+          "character": "教",
+          "confidence": 0.9999979734420776
+        },
+        {
+          "character": "育",
+          "confidence": 0.9999998807907104
+        },
+        {
+          "character": "经",
+          "confidence": 0.9999969005584717
+        },
+        {
+          "character": "历",
+          "confidence": 0.9999974966049194
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 2,
+        "word_size": 32
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.8263072967529297,
+      "itemstring": "桂林理工大学款根技术。本科",
+      "itemcoord": {
+        "x": 545,
+        "width": 211,
+        "y": 344,
+        "height": 37
+      },
+      "coordpoint": {
+        "x": [
+          545,
+          344,
+          755,
+          344,
+          755,
+          380,
+          545,
+          380
+        ]
+      },
+      "words": [
+        {
+          "character": "桂",
+          "confidence": 0.9977414608001709
+        },
+        {
+          "character": "林",
+          "confidence": 0.9932696223258972
+        },
+        {
+          "character": "理",
+          "confidence": 0.9261659383773804
+        },
+        {
+          "character": "工",
+          "confidence": 0.9943150877952576
+        },
+        {
+          "character": "大",
+          "confidence": 0.9962570667266846
+        },
+        {
+          "character": "学",
+          "confidence": 0.985818088054657
+        },
+        {
+          "character": "款",
+          "confidence": 0.493163526058197
+        },
+        {
+          "character": "根",
+          "confidence": 0.34309476613998413
+        },
+        {
+          "character": "技",
+          "confidence": 0.9856154918670654
+        },
+        {
+          "character": "术",
+          "confidence": 0.9880563020706177
+        },
+        {
+          "character": "。",
+          "confidence": 0.46588602662086487
+        },
+        {
+          "character": "本",
+          "confidence": 0.6044663190841675
+        },
+        {
+          "character": "科",
+          "confidence": 0.9681458473205566
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 3,
+        "word_size": 31
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.8784906268119812,
+      "itemstring": "2019.9- 2024.6",
+      "itemcoord": {
+        "x": 1118,
+        "width": 140,
+        "y": 349,
+        "height": 24
+      },
+      "coordpoint": {
+        "x": [
+          1118,
+          349,
+          1257,
+          349,
+          1257,
+          372,
+          1118,
+          372
+        ]
+      },
+      "words": [
+        {
+          "character": "2",
+          "confidence": 0.5095574259757996
+        },
+        {
+          "character": "0",
+          "confidence": 0.9995740056037903
+        },
+        {
+          "character": "1",
+          "confidence": 0.9998179078102112
+        },
+        {
+          "character": "9",
+          "confidence": 0.9989250302314758
+        },
+        {
+          "character": ".",
+          "confidence": 0.9874148964881897
+        },
+        {
+          "character": "9",
+          "confidence": 0.9996999502182007
+        },
+        {
+          "character": "-",
+          "confidence": 0.8079422116279602
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "2",
+          "confidence": 0.9999911785125732
+        },
+        {
+          "character": "0",
+          "confidence": 0.9998507499694824
+        },
+        {
+          "character": "2",
+          "confidence": 0.9997256398200989
+        },
+        {
+          "character": "4",
+          "confidence": 0.9998999834060669
+        },
+        {
+          "character": ".",
+          "confidence": 0.9968810081481934
+        },
+        {
+          "character": "6",
+          "confidence": 0.9995893836021423
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 16,
+        "word_size": 20
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9819238781929016,
+      "itemstring": "-前端开发,数据分析,数据挖掘",
+      "itemcoord": {
+        "x": 550,
+        "width": 211,
+        "y": 386,
+        "height": 23
+      },
+      "coordpoint": {
+        "x": [
+          550,
+          386,
+          760,
+          386,
+          760,
+          408,
+          550,
+          408
+        ]
+      },
+      "words": [
+        {
+          "character": "-",
+          "confidence": 0.8246697783470154
+        },
+        {
+          "character": "前",
+          "confidence": 0.9998487234115601
+        },
+        {
+          "character": "端",
+          "confidence": 0.9999439716339111
+        },
+        {
+          "character": "开",
+          "confidence": 0.9998506307601929
+        },
+        {
+          "character": "发",
+          "confidence": 0.9999780654907227
+        },
+        {
+          "character": ",",
+          "confidence": 0.9664759039878845
+        },
+        {
+          "character": "数",
+          "confidence": 0.9990599751472473
+        },
+        {
+          "character": "据",
+          "confidence": 0.999994158744812
+        },
+        {
+          "character": "分",
+          "confidence": 0.9999721050262451
+        },
+        {
+          "character": "析",
+          "confidence": 0.9999668598175049
+        },
+        {
+          "character": ",",
+          "confidence": 0.9555330872535706
+        },
+        {
+          "character": "数",
+          "confidence": 0.9998469352722168
+        },
+        {
+          "character": "据",
+          "confidence": 0.9999960660934448
+        },
+        {
+          "character": "挖",
+          "confidence": 0.9999083280563354
+        },
+        {
+          "character": "掘",
+          "confidence": 0.9838129281997681
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 4,
+        "word_size": 19
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9993739128112793,
+      "itemstring": "工作经历",
+      "itemcoord": {
+        "x": 546,
+        "width": 127,
+        "y": 438,
+        "height": 33
+      },
+      "coordpoint": {
+        "x": [
+          546,
+          438,
+          672,
+          438,
+          672,
+          470,
+          546,
+          470
+        ]
+      },
+      "words": [
+        {
+          "character": "工",
+          "confidence": 0.9980365633964539
+        },
+        {
+          "character": "作",
+          "confidence": 0.9994680285453796
+        },
+        {
+          "character": "经",
+          "confidence": 0.9999927282333374
+        },
+        {
+          "character": "历",
+          "confidence": 0.9999983310699463
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 5,
+        "word_size": 28
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9998816847801208,
+      "itemstring": "深圳大时尚科技有限公司",
+      "itemcoord": {
+        "x": 547,
+        "width": 184,
+        "y": 480,
+        "height": 23
+      },
+      "coordpoint": {
+        "x": [
+          547,
+          480,
+          730,
+          480,
+          730,
+          502,
+          547,
+          502
+        ]
+      },
+      "words": [
+        {
+          "character": "深",
+          "confidence": 0.9995514750480652
+        },
+        {
+          "character": "圳",
+          "confidence": 0.9998877048492432
+        },
+        {
+          "character": "大",
+          "confidence": 0.9998999834060669
+        },
+        {
+          "character": "时",
+          "confidence": 0.9999762773513794
+        },
+        {
+          "character": "尚",
+          "confidence": 0.9998568296432495
+        },
+        {
+          "character": "科",
+          "confidence": 0.9999898672103882
+        },
+        {
+          "character": "技",
+          "confidence": 0.9999903440475464
+        },
+        {
+          "character": "有",
+          "confidence": 0.9996300935745239
+        },
+        {
+          "character": "限",
+          "confidence": 0.999969482421875
+        },
+        {
+          "character": "公",
+          "confidence": 0.9999498128890991
+        },
+        {
+          "character": "司",
+          "confidence": 0.9999964237213135
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 6,
+        "word_size": 19
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.853036105632782,
+      "itemstring": "2021.8 - 2022.1",
+      "itemcoord": {
+        "x": 1125,
+        "width": 130,
+        "y": 480,
+        "height": 23
+      },
+      "coordpoint": {
+        "x": [
+          1125,
+          480,
+          1254,
+          480,
+          1254,
+          502,
+          1125,
+          502
+        ]
+      },
+      "words": [
+        {
+          "character": "2",
+          "confidence": 0.9078102707862854
+        },
+        {
+          "character": "0",
+          "confidence": 0.9993712306022644
+        },
+        {
+          "character": "2",
+          "confidence": 0.9993577599525452
+        },
+        {
+          "character": "1",
+          "confidence": 0.9985585808753967
+        },
+        {
+          "character": ".",
+          "confidence": 0.9291712045669556
+        },
+        {
+          "character": "8",
+          "confidence": 0.999624490737915
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "-",
+          "confidence": 0.9721664190292358
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "2",
+          "confidence": 0.9999165534973145
+        },
+        {
+          "character": "0",
+          "confidence": 0.9998241066932678
+        },
+        {
+          "character": "2",
+          "confidence": 0.9991315007209778
+        },
+        {
+          "character": "2",
+          "confidence": 0.9999387264251709
+        },
+        {
+          "character": ".",
+          "confidence": 0.9988569021224976
+        },
+        {
+          "character": "1",
+          "confidence": 0.9918136596679688
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 17,
+        "word_size": 20
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.8766812086105347,
+      "itemstring": "蕲资待遇: 3.8K",
+      "itemcoord": {
+        "x": 1132,
+        "width": 123,
+        "y": 502,
+        "height": 26
+      },
+      "coordpoint": {
+        "x": [
+          1132,
+          502,
+          1254,
+          502,
+          1254,
+          527,
+          1132,
+          527
+        ]
+      },
+      "words": [
+        {
+          "character": "蕲",
+          "confidence": 0.8203070759773254
+        },
+        {
+          "character": "资",
+          "confidence": 0.9999063014984131
+        },
+        {
+          "character": "待",
+          "confidence": 0.9998584985733032
+        },
+        {
+          "character": "遇",
+          "confidence": 0.9998741149902344
+        },
+        {
+          "character": ":",
+          "confidence": 0.9509007930755615
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "3",
+          "confidence": 0.9998145699501038
+        },
+        {
+          "character": ".",
+          "confidence": 0.9987927675247192
+        },
+        {
+          "character": "8",
+          "confidence": 0.9992197751998901
+        },
+        {
+          "character": "K",
+          "confidence": 0.9981386661529541
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 17,
+        "word_size": 20
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9695599675178528,
+      "itemstring": "-部分PHP-CMS和Python",
+      "itemcoord": {
+        "x": 548,
+        "width": 177,
+        "y": 522,
+        "height": 24
+      },
+      "coordpoint": {
+        "x": [
+          548,
+          522,
+          724,
+          522,
+          724,
+          545,
+          548,
+          545
+        ]
+      },
+      "words": [
+        {
+          "character": "-",
+          "confidence": 0.6401360034942627
+        },
+        {
+          "character": "部",
+          "confidence": 0.9998717308044434
+        },
+        {
+          "character": "分",
+          "confidence": 0.9999654293060303
+        },
+        {
+          "character": "P",
+          "confidence": 0.9989519119262695
+        },
+        {
+          "character": "H",
+          "confidence": 0.9996281862258911
+        },
+        {
+          "character": "P",
+          "confidence": 0.9997207522392273
+        },
+        {
+          "character": "-",
+          "confidence": 0.8537536859512329
+        },
+        {
+          "character": "C",
+          "confidence": 0.9998805522918701
+        },
+        {
+          "character": "M",
+          "confidence": 0.9998476505279541
+        },
+        {
+          "character": "S",
+          "confidence": 0.9959992170333862
+        },
+        {
+          "character": "和",
+          "confidence": 0.9981004595756531
+        },
+        {
+          "character": "P",
+          "confidence": 0.9979628324508667
+        },
+        {
+          "character": "y",
+          "confidence": 0.9994038343429565
+        },
+        {
+          "character": "t",
+          "confidence": 0.999805748462677
+        },
+        {
+          "character": "h",
+          "confidence": 0.9999570846557617
+        },
+        {
+          "character": "o",
+          "confidence": 0.9996433258056641
+        },
+        {
+          "character": "n",
+          "confidence": 0.9998904466629028
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 7,
+        "word_size": 20
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9988946914672852,
+      "itemstring": "广州天势网络科技有限公司",
+      "itemcoord": {
+        "x": 547,
+        "width": 208,
+        "y": 560,
+        "height": 27
+      },
+      "coordpoint": {
+        "x": [
+          547,
+          560,
+          754,
+          560,
+          754,
+          586,
+          547,
+          586
+        ]
+      },
+      "words": [
+        {
+          "character": "广",
+          "confidence": 0.9991557598114014
+        },
+        {
+          "character": "州",
+          "confidence": 0.9974945783615112
+        },
+        {
+          "character": "天",
+          "confidence": 0.9976281523704529
+        },
+        {
+          "character": "势",
+          "confidence": 0.9948742985725403
+        },
+        {
+          "character": "网",
+          "confidence": 0.9999586343765259
+        },
+        {
+          "character": "络",
+          "confidence": 0.9977620840072632
+        },
+        {
+          "character": "科",
+          "confidence": 0.9999526739120483
+        },
+        {
+          "character": "技",
+          "confidence": 0.999994158744812
+        },
+        {
+          "character": "有",
+          "confidence": 0.9999845027923584
+        },
+        {
+          "character": "限",
+          "confidence": 1.0
+        },
+        {
+          "character": "公",
+          "confidence": 0.9999384880065918
+        },
+        {
+          "character": "司",
+          "confidence": 0.9999926090240479
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 8,
+        "word_size": 22
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.8591009378433228,
+      "itemstring": "2022.3 - 2022.8",
+      "itemcoord": {
+        "x": 1121,
+        "width": 138,
+        "y": 560,
+        "height": 25
+      },
+      "coordpoint": {
+        "x": [
+          1121,
+          560,
+          1258,
+          560,
+          1258,
+          584,
+          1121,
+          584
+        ]
+      },
+      "words": [
+        {
+          "character": "2",
+          "confidence": 0.9999538660049438
+        },
+        {
+          "character": "0",
+          "confidence": 0.9986851811408997
+        },
+        {
+          "character": "2",
+          "confidence": 0.999546229839325
+        },
+        {
+          "character": "2",
+          "confidence": 0.999968409538269
+        },
+        {
+          "character": ".",
+          "confidence": 0.9995326995849609
+        },
+        {
+          "character": "3",
+          "confidence": 0.9994008541107178
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "-",
+          "confidence": 0.8912991285324097
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "2",
+          "confidence": 0.9999935626983643
+        },
+        {
+          "character": "0",
+          "confidence": 0.9997166991233826
+        },
+        {
+          "character": "2",
+          "confidence": 0.9999872446060181
+        },
+        {
+          "character": "2",
+          "confidence": 0.9999442100524902
+        },
+        {
+          "character": ".",
+          "confidence": 0.998920202255249
+        },
+        {
+          "character": "8",
+          "confidence": 0.9995638728141785
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 18,
+        "word_size": 19
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9067367911338806,
+      "itemstring": "~前端开发，小程序开发,数据爬虫",
+      "itemcoord": {
+        "x": 550,
+        "width": 216,
+        "y": 588,
+        "height": 24
+      },
+      "coordpoint": {
+        "x": [
+          550,
+          588,
+          765,
+          588,
+          765,
+          611,
+          550,
+          611
+        ]
+      },
+      "words": [
+        {
+          "character": "~",
+          "confidence": 0.3945770859718323
+        },
+        {
+          "character": "前",
+          "confidence": 0.9782203435897827
+        },
+        {
+          "character": "端",
+          "confidence": 0.9943253397941589
+        },
+        {
+          "character": "开",
+          "confidence": 0.9970670342445374
+        },
+        {
+          "character": "发",
+          "confidence": 0.989526629447937
+        },
+        {
+          "character": "，",
+          "confidence": 0.6186591386795044
+        },
+        {
+          "character": "小",
+          "confidence": 0.9995412826538086
+        },
+        {
+          "character": "程",
+          "confidence": 0.9999638795852661
+        },
+        {
+          "character": "序",
+          "confidence": 0.99982750415802
+        },
+        {
+          "character": "开",
+          "confidence": 0.9768535494804382
+        },
+        {
+          "character": "发",
+          "confidence": 0.9960349202156067
+        },
+        {
+          "character": ",",
+          "confidence": 0.8017120361328125
+        },
+        {
+          "character": "数",
+          "confidence": 0.7730652093887329
+        },
+        {
+          "character": "据",
+          "confidence": 0.9911249279975891
+        },
+        {
+          "character": "爬",
+          "confidence": 0.9979050159454346
+        },
+        {
+          "character": "虫",
+          "confidence": 0.9993852376937866
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 9,
+        "word_size": 20
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.8961910009384155,
+      "itemstring": "薪资待遇: 5.0K",
+      "itemcoord": {
+        "x": 1135,
+        "width": 121,
+        "y": 583,
+        "height": 22
+      },
+      "coordpoint": {
+        "x": [
+          1135,
+          583,
+          1255,
+          583,
+          1255,
+          604,
+          1135,
+          604
+        ]
+      },
+      "words": [
+        {
+          "character": "薪",
+          "confidence": 0.9994516968727112
+        },
+        {
+          "character": "资",
+          "confidence": 0.9999226331710815
+        },
+        {
+          "character": "待",
+          "confidence": 0.9995203018188477
+        },
+        {
+          "character": "遇",
+          "confidence": 0.9999953508377075
+        },
+        {
+          "character": ":",
+          "confidence": 0.9821403622627258
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "5",
+          "confidence": 0.9998284578323364
+        },
+        {
+          "character": ".",
+          "confidence": 0.9995755553245544
+        },
+        {
+          "character": "0",
+          "confidence": 0.9819017052650452
+        },
+        {
+          "character": "K",
+          "confidence": 0.9995738863945007
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 18,
+        "word_size": 19
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.8609372973442078,
+      "itemstring": "-部分参与Android Hybrid App ",
+      "itemcoord": {
+        "x": 550,
+        "width": 216,
+        "y": 604,
+        "height": 23
+      },
+      "coordpoint": {
+        "x": [
+          550,
+          604,
+          765,
+          604,
+          765,
+          626,
+          550,
+          626
+        ]
+      },
+      "words": [
+        {
+          "character": "-",
+          "confidence": 0.6952396035194397
+        },
+        {
+          "character": "部",
+          "confidence": 0.9996623992919922
+        },
+        {
+          "character": "分",
+          "confidence": 0.9999960660934448
+        },
+        {
+          "character": "参",
+          "confidence": 0.9984801411628723
+        },
+        {
+          "character": "与",
+          "confidence": 0.9998038411140442
+        },
+        {
+          "character": "A",
+          "confidence": 0.9805489182472229
+        },
+        {
+          "character": "n",
+          "confidence": 0.9999469518661499
+        },
+        {
+          "character": "d",
+          "confidence": 0.9999635219573975
+        },
+        {
+          "character": "r",
+          "confidence": 0.9996780157089233
+        },
+        {
+          "character": "o",
+          "confidence": 0.9996380805969238
+        },
+        {
+          "character": "i",
+          "confidence": 0.9993770718574524
+        },
+        {
+          "character": "d",
+          "confidence": 0.9996503591537476
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "H",
+          "confidence": 0.9999785423278809
+        },
+        {
+          "character": "y",
+          "confidence": 0.9998879432678223
+        },
+        {
+          "character": "b",
+          "confidence": 0.9981316924095154
+        },
+        {
+          "character": "r",
+          "confidence": 0.9965534210205078
+        },
+        {
+          "character": "i",
+          "confidence": 0.9998505115509033
+        },
+        {
+          "character": "d",
+          "confidence": 0.9997609257698059
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "A",
+          "confidence": 0.9984440207481384
+        },
+        {
+          "character": "p",
+          "confidence": 0.9992982149124146
+        },
+        {
+          "character": "p",
+          "confidence": 0.9986054301261902
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 10,
+        "word_size": 19
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9999828338623047,
+      "itemstring": "专业技能",
+      "itemcoord": {
+        "x": 547,
+        "width": 129,
+        "y": 652,
+        "height": 34
+      },
+      "coordpoint": {
+        "x": [
+          547,
+          652,
+          675,
+          652,
+          675,
+          685,
+          547,
+          685
+        ]
+      },
+      "words": [
+        {
+          "character": "专",
+          "confidence": 0.999991774559021
+        },
+        {
+          "character": "业",
+          "confidence": 0.9999700784683228
+        },
+        {
+          "character": "技",
+          "confidence": 0.9999794960021973
+        },
+        {
+          "character": "能",
+          "confidence": 0.9999899864196777
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 11,
+        "word_size": 28
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9763222932815552,
+      "itemstring": "编程语言:",
+      "itemcoord": {
+        "x": 548,
+        "width": 67,
+        "y": 693,
+        "height": 26
+      },
+      "coordpoint": {
+        "x": [
+          548,
+          693,
+          614,
+          693,
+          614,
+          718,
+          548,
+          718
+        ]
+      },
+      "words": [
+        {
+          "character": "编",
+          "confidence": 0.9735574126243591
+        },
+        {
+          "character": "程",
+          "confidence": 0.9999302625656128
+        },
+        {
+          "character": "语",
+          "confidence": 0.9992873072624207
+        },
+        {
+          "character": "言",
+          "confidence": 0.9364071488380432
+        },
+        {
+          "character": ":",
+          "confidence": 0.9724294543266296
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 12,
+        "word_size": 21
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.8265350461006165,
+      "itemstring": "acipt, python, Dart, PHP, scala, MYSQL, Bash",
+      "itemcoord": {
+        "x": 628,
+        "width": 348,
+        "y": 711,
+        "height": 28
+      },
+      "coordpoint": {
+        "x": [
+          628,
+          711,
+          975,
+          711,
+          975,
+          738,
+          628,
+          738
+        ]
+      },
+      "words": [
+        {
+          "character": "a",
+          "confidence": 0.9632205963134766
+        },
+        {
+          "character": "c",
+          "confidence": 0.6457929611206055
+        },
+        {
+          "character": "i",
+          "confidence": 0.703116238117218
+        },
+        {
+          "character": "p",
+          "confidence": 0.9726496338844299
+        },
+        {
+          "character": "t",
+          "confidence": 0.99014812707901
+        },
+        {
+          "character": ",",
+          "confidence": 0.958284854888916
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "p",
+          "confidence": 0.6918771266937256
+        },
+        {
+          "character": "y",
+          "confidence": 0.9999910593032837
+        },
+        {
+          "character": "t",
+          "confidence": 0.9999608993530273
+        },
+        {
+          "character": "h",
+          "confidence": 0.9969950914382935
+        },
+        {
+          "character": "o",
+          "confidence": 0.9998127818107605
+        },
+        {
+          "character": "n",
+          "confidence": 0.9996570348739624
+        },
+        {
+          "character": ",",
+          "confidence": 0.9987805485725403
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "D",
+          "confidence": 0.8425807356834412
+        },
+        {
+          "character": "a",
+          "confidence": 0.9996827840805054
+        },
+        {
+          "character": "r",
+          "confidence": 0.9949171543121338
+        },
+        {
+          "character": "t",
+          "confidence": 0.9998354911804199
+        },
+        {
+          "character": ",",
+          "confidence": 0.9983959794044495
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "P",
+          "confidence": 0.9771410226821899
+        },
+        {
+          "character": "H",
+          "confidence": 0.9984484910964966
+        },
+        {
+          "character": "P",
+          "confidence": 0.9281275272369385
+        },
+        {
+          "character": ",",
+          "confidence": 0.9847466945648193
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "s",
+          "confidence": 0.9693520665168762
+        },
+        {
+          "character": "c",
+          "confidence": 0.9841976761817932
+        },
+        {
+          "character": "a",
+          "confidence": 0.9979228377342224
+        },
+        {
+          "character": "l",
+          "confidence": 0.9912001490592957
+        },
+        {
+          "character": "a",
+          "confidence": 0.9527789354324341
+        },
+        {
+          "character": ",",
+          "confidence": 0.9931021928787231
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "M",
+          "confidence": 0.9997597336769104
+        },
+        {
+          "character": "Y",
+          "confidence": 0.9881806373596191
+        },
+        {
+          "character": "S",
+          "confidence": 0.9079949855804443
+        },
+        {
+          "character": "Q",
+          "confidence": 0.9945534467697144
+        },
+        {
+          "character": "L",
+          "confidence": 0.9602499604225159
+        },
+        {
+          "character": ",",
+          "confidence": 0.9877666234970093
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "B",
+          "confidence": 0.9990403056144714
+        },
+        {
+          "character": "a",
+          "confidence": 0.9999650716781616
+        },
+        {
+          "character": "s",
+          "confidence": 0.9995107650756836
+        },
+        {
+          "character": "h",
+          "confidence": 0.9978017210960388
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 12,
+        "word_size": 21
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9534286260604858,
+      "itemstring": "框架和库:",
+      "itemcoord": {
+        "x": 544,
+        "width": 75,
+        "y": 741,
+        "height": 22
+      },
+      "coordpoint": {
+        "x": [
+          544,
+          741,
+          618,
+          741,
+          618,
+          762,
+          544,
+          762
+        ]
+      },
+      "words": [
+        {
+          "character": "框",
+          "confidence": 0.9975624084472656
+        },
+        {
+          "character": "架",
+          "confidence": 0.9972426891326904
+        },
+        {
+          "character": "和",
+          "confidence": 0.9976624250411987
+        },
+        {
+          "character": "库",
+          "confidence": 0.9995695948600769
+        },
+        {
+          "character": ":",
+          "confidence": 0.7751060724258423
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 12,
+        "word_size": 21
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.8534233570098877,
+      "itemstring": "一Vue3, Flutter, uni-app, Vite, puppeteer, Node.s, Express",
+      "itemcoord": {
+        "x": 545,
+        "width": 433,
+        "y": 769,
+        "height": 22
+      },
+      "coordpoint": {
+        "x": [
+          545,
+          769,
+          977,
+          769,
+          977,
+          790,
+          545,
+          790
+        ]
+      },
+      "words": [
+        {
+          "character": "一",
+          "confidence": 0.5186246037483215
+        },
+        {
+          "character": "V",
+          "confidence": 0.951805055141449
+        },
+        {
+          "character": "u",
+          "confidence": 0.9977091550827026
+        },
+        {
+          "character": "e",
+          "confidence": 0.9997467398643494
+        },
+        {
+          "character": "3",
+          "confidence": 0.9996910095214844
+        },
+        {
+          "character": ",",
+          "confidence": 0.9971672892570496
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "F",
+          "confidence": 0.998894989490509
+        },
+        {
+          "character": "l",
+          "confidence": 0.9932802319526672
+        },
+        {
+          "character": "u",
+          "confidence": 0.9943280816078186
+        },
+        {
+          "character": "t",
+          "confidence": 0.9919219017028809
+        },
+        {
+          "character": "t",
+          "confidence": 0.9982477426528931
+        },
+        {
+          "character": "e",
+          "confidence": 0.9951133131980896
+        },
+        {
+          "character": "r",
+          "confidence": 0.9992927312850952
+        },
+        {
+          "character": ",",
+          "confidence": 0.9985717535018921
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "u",
+          "confidence": 0.9966641068458557
+        },
+        {
+          "character": "n",
+          "confidence": 0.9978742599487305
+        },
+        {
+          "character": "i",
+          "confidence": 0.49737563729286194
+        },
+        {
+          "character": "-",
+          "confidence": 0.9874863624572754
+        },
+        {
+          "character": "a",
+          "confidence": 0.9996477365493774
+        },
+        {
+          "character": "p",
+          "confidence": 0.9996167421340942
+        },
+        {
+          "character": "p",
+          "confidence": 0.9984003901481628
+        },
+        {
+          "character": ",",
+          "confidence": 0.9982574582099915
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "V",
+          "confidence": 0.8203745484352112
+        },
+        {
+          "character": "i",
+          "confidence": 0.9975419044494629
+        },
+        {
+          "character": "t",
+          "confidence": 0.9998552799224854
+        },
+        {
+          "character": "e",
+          "confidence": 0.9999892711639404
+        },
+        {
+          "character": ",",
+          "confidence": 0.9910082221031189
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "p",
+          "confidence": 0.9995410442352295
+        },
+        {
+          "character": "u",
+          "confidence": 0.9999340772628784
+        },
+        {
+          "character": "p",
+          "confidence": 0.9999697208404541
+        },
+        {
+          "character": "p",
+          "confidence": 0.999809205532074
+        },
+        {
+          "character": "e",
+          "confidence": 0.9999735355377197
+        },
+        {
+          "character": "t",
+          "confidence": 0.9866079092025757
+        },
+        {
+          "character": "e",
+          "confidence": 0.9974843263626099
+        },
+        {
+          "character": "e",
+          "confidence": 0.9994877576828003
+        },
+        {
+          "character": "r",
+          "confidence": 0.9999511241912842
+        },
+        {
+          "character": ",",
+          "confidence": 0.9985937476158142
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "N",
+          "confidence": 0.9975571632385254
+        },
+        {
+          "character": "o",
+          "confidence": 0.6531108617782593
+        },
+        {
+          "character": "d",
+          "confidence": 0.9979214072227478
+        },
+        {
+          "character": "e",
+          "confidence": 0.9994999170303345
+        },
+        {
+          "character": ".",
+          "confidence": 0.6626114249229431
+        },
+        {
+          "character": "s",
+          "confidence": 0.6412872076034546
+        },
+        {
+          "character": ",",
+          "confidence": 0.9998424053192139
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "E",
+          "confidence": 0.9974676370620728
+        },
+        {
+          "character": "x",
+          "confidence": 0.9994934797286987
+        },
+        {
+          "character": "p",
+          "confidence": 0.9999048709869385
+        },
+        {
+          "character": "r",
+          "confidence": 0.9985552430152893
+        },
+        {
+          "character": "e",
+          "confidence": 0.9994083642959595
+        },
+        {
+          "character": "s",
+          "confidence": 0.9988929629325867
+        },
+        {
+          "character": "s",
+          "confidence": 0.9997404217720032
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 13,
+        "word_size": 18
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9868338704109192,
+      "itemstring": "开发工具:",
+      "itemcoord": {
+        "x": 545,
+        "width": 80,
+        "y": 800,
+        "height": 21
+      },
+      "coordpoint": {
+        "x": [
+          545,
+          800,
+          624,
+          800,
+          624,
+          820,
+          545,
+          820
+        ]
+      },
+      "words": [
+        {
+          "character": "开",
+          "confidence": 0.9999046325683594
+        },
+        {
+          "character": "发",
+          "confidence": 0.9999421834945679
+        },
+        {
+          "character": "工",
+          "confidence": 0.9992971420288086
+        },
+        {
+          "character": "具",
+          "confidence": 0.9999293088912964
+        },
+        {
+          "character": ":",
+          "confidence": 0.9350957870483398
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 13,
+        "word_size": 18
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.8575612902641296,
+      "itemstring": "IDEA, GitsVN, Postman, Anaconda, Markdown, ADB, WsL",
+      "itemcoord": {
+        "x": 560,
+        "width": 415,
+        "y": 812,
+        "height": 24
+      },
+      "coordpoint": {
+        "x": [
+          560,
+          812,
+          974,
+          812,
+          974,
+          835,
+          560,
+          835
+        ]
+      },
+      "words": [
+        {
+          "character": "I",
+          "confidence": 0.848247230052948
+        },
+        {
+          "character": "D",
+          "confidence": 0.9980030655860901
+        },
+        {
+          "character": "E",
+          "confidence": 0.9981784820556641
+        },
+        {
+          "character": "A",
+          "confidence": 0.9965448975563049
+        },
+        {
+          "character": ",",
+          "confidence": 0.9436721801757812
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "G",
+          "confidence": 0.9970340728759766
+        },
+        {
+          "character": "i",
+          "confidence": 0.9950581789016724
+        },
+        {
+          "character": "t",
+          "confidence": 0.9995433688163757
+        },
+        {
+          "character": "s",
+          "confidence": 0.7105544805526733
+        },
+        {
+          "character": "V",
+          "confidence": 0.8029910922050476
+        },
+        {
+          "character": "N",
+          "confidence": 0.9857146143913269
+        },
+        {
+          "character": ",",
+          "confidence": 0.9970910549163818
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "P",
+          "confidence": 0.8951508402824402
+        },
+        {
+          "character": "o",
+          "confidence": 0.9991902709007263
+        },
+        {
+          "character": "s",
+          "confidence": 0.9994144439697266
+        },
+        {
+          "character": "t",
+          "confidence": 0.9998997449874878
+        },
+        {
+          "character": "m",
+          "confidence": 0.9994900226593018
+        },
+        {
+          "character": "a",
+          "confidence": 0.9999469518661499
+        },
+        {
+          "character": "n",
+          "confidence": 0.9998908042907715
+        },
+        {
+          "character": ",",
+          "confidence": 0.9993470311164856
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "A",
+          "confidence": 0.9999550580978394
+        },
+        {
+          "character": "n",
+          "confidence": 0.9998065829277039
+        },
+        {
+          "character": "a",
+          "confidence": 0.9999061822891235
+        },
+        {
+          "character": "c",
+          "confidence": 0.9999077320098877
+        },
+        {
+          "character": "o",
+          "confidence": 0.9997463822364807
+        },
+        {
+          "character": "n",
+          "confidence": 0.9998600482940674
+        },
+        {
+          "character": "d",
+          "confidence": 0.9999140501022339
+        },
+        {
+          "character": "a",
+          "confidence": 0.999975323677063
+        },
+        {
+          "character": ",",
+          "confidence": 0.9988893866539001
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "M",
+          "confidence": 0.9766595363616943
+        },
+        {
+          "character": "a",
+          "confidence": 0.9999127388000488
+        },
+        {
+          "character": "r",
+          "confidence": 0.999881386756897
+        },
+        {
+          "character": "k",
+          "confidence": 0.9998719692230225
+        },
+        {
+          "character": "d",
+          "confidence": 0.9990069270133972
+        },
+        {
+          "character": "o",
+          "confidence": 0.9999637603759766
+        },
+        {
+          "character": "w",
+          "confidence": 0.9999692440032959
+        },
+        {
+          "character": "n",
+          "confidence": 0.9999001026153564
+        },
+        {
+          "character": ",",
+          "confidence": 0.9992105960845947
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "A",
+          "confidence": 0.9993213415145874
+        },
+        {
+          "character": "D",
+          "confidence": 0.9992672801017761
+        },
+        {
+          "character": "B",
+          "confidence": 0.998677670955658
+        },
+        {
+          "character": ",",
+          "confidence": 0.9960648417472839
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "W",
+          "confidence": 0.9072666168212891
+        },
+        {
+          "character": "s",
+          "confidence": 0.8569070100784302
+        },
+        {
+          "character": "L",
+          "confidence": 0.8408222794532776
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 14,
+        "word_size": 19
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.7622589468955994,
+      "itemstring": "辅助技能: .",
+      "itemcoord": {
+        "x": 546,
+        "width": 77,
+        "y": 839,
+        "height": 23
+      },
+      "coordpoint": {
+        "x": [
+          546,
+          839,
+          622,
+          839,
+          622,
+          861,
+          546,
+          861
+        ]
+      },
+      "words": [
+        {
+          "character": "辅",
+          "confidence": 0.9998873472213745
+        },
+        {
+          "character": "助",
+          "confidence": 0.9995602965354919
+        },
+        {
+          "character": "技",
+          "confidence": 0.9996165037155151
+        },
+        {
+          "character": "能",
+          "confidence": 0.9992607235908508
+        },
+        {
+          "character": ":",
+          "confidence": 0.931193470954895
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": ".",
+          "confidence": 0.4062942862510681
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 14,
+        "word_size": 19
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.7978793978691101,
+      "itemstring": "- Linux, Photoshop, AutoCAD, Figma, XD, AI, Office & WPS",
+      "itemcoord": {
+        "x": 550,
+        "width": 425,
+        "y": 866,
+        "height": 24
+      },
+      "coordpoint": {
+        "x": [
+          550,
+          866,
+          974,
+          866,
+          974,
+          889,
+          550,
+          889
+        ]
+      },
+      "words": [
+        {
+          "character": "-",
+          "confidence": 0.38811367750167847
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "L",
+          "confidence": 0.9903692603111267
+        },
+        {
+          "character": "i",
+          "confidence": 0.9998146891593933
+        },
+        {
+          "character": "n",
+          "confidence": 0.999721348285675
+        },
+        {
+          "character": "u",
+          "confidence": 0.9997978806495667
+        },
+        {
+          "character": "x",
+          "confidence": 0.9959275126457214
+        },
+        {
+          "character": ",",
+          "confidence": 0.9980599284172058
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "P",
+          "confidence": 0.9841690063476562
+        },
+        {
+          "character": "h",
+          "confidence": 0.9994441866874695
+        },
+        {
+          "character": "o",
+          "confidence": 0.999626874923706
+        },
+        {
+          "character": "t",
+          "confidence": 0.9999843835830688
+        },
+        {
+          "character": "o",
+          "confidence": 0.9995222091674805
+        },
+        {
+          "character": "s",
+          "confidence": 0.999438464641571
+        },
+        {
+          "character": "h",
+          "confidence": 0.9998883008956909
+        },
+        {
+          "character": "o",
+          "confidence": 0.999544084072113
+        },
+        {
+          "character": "p",
+          "confidence": 0.9985387325286865
+        },
+        {
+          "character": ",",
+          "confidence": 0.9994144439697266
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "A",
+          "confidence": 0.9998325109481812
+        },
+        {
+          "character": "u",
+          "confidence": 0.9914211630821228
+        },
+        {
+          "character": "t",
+          "confidence": 0.999794065952301
+        },
+        {
+          "character": "o",
+          "confidence": 0.9976170063018799
+        },
+        {
+          "character": "C",
+          "confidence": 0.9981533885002136
+        },
+        {
+          "character": "A",
+          "confidence": 0.9977105855941772
+        },
+        {
+          "character": "D",
+          "confidence": 0.9990828037261963
+        },
+        {
+          "character": ",",
+          "confidence": 0.9991401433944702
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "F",
+          "confidence": 0.9984388947486877
+        },
+        {
+          "character": "i",
+          "confidence": 0.9968435764312744
+        },
+        {
+          "character": "g",
+          "confidence": 0.999968409538269
+        },
+        {
+          "character": "m",
+          "confidence": 0.9999003410339355
+        },
+        {
+          "character": "a",
+          "confidence": 0.9999781847000122
+        },
+        {
+          "character": ",",
+          "confidence": 0.9985458850860596
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "X",
+          "confidence": 0.7302232384681702
+        },
+        {
+          "character": "D",
+          "confidence": 0.9998144507408142
+        },
+        {
+          "character": ",",
+          "confidence": 0.9920393228530884
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "A",
+          "confidence": 0.8337846398353577
+        },
+        {
+          "character": "I",
+          "confidence": 0.5436058640480042
+        },
+        {
+          "character": ",",
+          "confidence": 0.995671272277832
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "O",
+          "confidence": 0.5749037861824036
+        },
+        {
+          "character": "f",
+          "confidence": 0.999771773815155
+        },
+        {
+          "character": "f",
+          "confidence": 0.9970097541809082
+        },
+        {
+          "character": "i",
+          "confidence": 0.9720861911773682
+        },
+        {
+          "character": "c",
+          "confidence": 0.9045867323875427
+        },
+        {
+          "character": "e",
+          "confidence": 0.957088053226471
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "&",
+          "confidence": 0.9999957084655762
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "W",
+          "confidence": 0.9809195399284363
+        },
+        {
+          "character": "P",
+          "confidence": 0.9395382404327393
+        },
+        {
+          "character": "S",
+          "confidence": 0.9324018955230713
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 15,
+        "word_size": 23
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9286527633666992,
+      "itemstring": "项目经验.",
+      "itemcoord": {
+        "x": 545,
+        "width": 133,
+        "y": 916,
+        "height": 32
+      },
+      "coordpoint": {
+        "x": [
+          545,
+          916,
+          677,
+          916,
+          677,
+          947,
+          545,
+          947
+        ]
+      },
+      "words": [
+        {
+          "character": "项",
+          "confidence": 0.9999971389770508
+        },
+        {
+          "character": "目",
+          "confidence": 0.9999949932098389
+        },
+        {
+          "character": "经",
+          "confidence": 0.9999904632568359
+        },
+        {
+          "character": "验",
+          "confidence": 0.9999935626983643
+        },
+        {
+          "character": ".",
+          "confidence": 0.6432876586914062
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 15,
+        "word_size": 23
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9259781241416931,
+      "itemstring": "我的个人站点入口。hts://an071.com",
+      "itemcoord": {
+        "x": 546,
+        "width": 348,
+        "y": 959,
+        "height": 27
+      },
+      "coordpoint": {
+        "x": [
+          546,
+          959,
+          893,
+          959,
+          893,
+          985,
+          546,
+          985
+        ]
+      },
+      "words": [
+        {
+          "character": "我",
+          "confidence": 0.9999916553497314
+        },
+        {
+          "character": "的",
+          "confidence": 0.9999836683273315
+        },
+        {
+          "character": "个",
+          "confidence": 0.9999914169311523
+        },
+        {
+          "character": "人",
+          "confidence": 0.9982388019561768
+        },
+        {
+          "character": "站",
+          "confidence": 0.9999966621398926
+        },
+        {
+          "character": "点",
+          "confidence": 0.9797807931900024
+        },
+        {
+          "character": "入",
+          "confidence": 0.9986804127693176
+        },
+        {
+          "character": "口",
+          "confidence": 0.9451110363006592
+        },
+        {
+          "character": "。",
+          "confidence": 0.8036419749259949
+        },
+        {
+          "character": "h",
+          "confidence": 0.9892330169677734
+        },
+        {
+          "character": "t",
+          "confidence": 0.9531264901161194
+        },
+        {
+          "character": "s",
+          "confidence": 0.7291815280914307
+        },
+        {
+          "character": ":",
+          "confidence": 0.8929792046546936
+        },
+        {
+          "character": "/",
+          "confidence": 0.9709116816520691
+        },
+        {
+          "character": "/",
+          "confidence": 0.7105752229690552
+        },
+        {
+          "character": "a",
+          "confidence": 0.7725703120231628
+        },
+        {
+          "character": "n",
+          "confidence": 0.9943716526031494
+        },
+        {
+          "character": "0",
+          "confidence": 0.5932337641716003
+        },
+        {
+          "character": "7",
+          "confidence": 0.93844074010849
+        },
+        {
+          "character": "1",
+          "confidence": 0.9616691470146179
+        },
+        {
+          "character": ".",
+          "confidence": 0.99946528673172
+        },
+        {
+          "character": "c",
+          "confidence": 0.9989683628082275
+        },
+        {
+          "character": "o",
+          "confidence": 0.995367169380188
+        },
+        {
+          "character": "m",
+          "confidence": 0.9979631900787354
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 19,
+        "word_size": 22
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9269276261329651,
+      "itemstring": "2021.9- 2021.11",
+      "itemcoord": {
+        "x": 1109,
+        "width": 148,
+        "y": 954,
+        "height": 25
+      },
+      "coordpoint": {
+        "x": [
+          1109,
+          954,
+          1256,
+          954,
+          1256,
+          978,
+          1109,
+          978
+        ]
+      },
+      "words": [
+        {
+          "character": "2",
+          "confidence": 0.9999819993972778
+        },
+        {
+          "character": "0",
+          "confidence": 0.999870777130127
+        },
+        {
+          "character": "2",
+          "confidence": 0.9985114932060242
+        },
+        {
+          "character": "1",
+          "confidence": 0.999661922454834
+        },
+        {
+          "character": ".",
+          "confidence": 0.9710520505905151
+        },
+        {
+          "character": "9",
+          "confidence": 0.9998452663421631
+        },
+        {
+          "character": "-",
+          "confidence": 0.9377481341362
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "2",
+          "confidence": 0.9998401403427124
+        },
+        {
+          "character": "0",
+          "confidence": 0.9996861219406128
+        },
+        {
+          "character": "2",
+          "confidence": 0.9994561076164246
+        },
+        {
+          "character": "1",
+          "confidence": 0.9997356534004211
+        },
+        {
+          "character": ".",
+          "confidence": 0.9987719655036926
+        },
+        {
+          "character": "1",
+          "confidence": 0.9999748468399048
+        },
+        {
+          "character": "1",
+          "confidence": 0.9997778534889221
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 20,
+        "word_size": 21
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9799315929412842,
+      "itemstring": "-出于对三维的热爱,以及JS三维图像方面的初次探索为目的进行初步学习,开发",
+      "itemcoord": {
+        "x": 550,
+        "width": 560,
+        "y": 1002,
+        "height": 26
+      },
+      "coordpoint": {
+        "x": [
+          550,
+          1002,
+          1109,
+          1002,
+          1109,
+          1027,
+          550,
+          1027
+        ]
+      },
+      "words": [
+        {
+          "character": "-",
+          "confidence": 0.48659437894821167
+        },
+        {
+          "character": "出",
+          "confidence": 0.9997617602348328
+        },
+        {
+          "character": "于",
+          "confidence": 0.9993916749954224
+        },
+        {
+          "character": "对",
+          "confidence": 0.9998999834060669
+        },
+        {
+          "character": "三",
+          "confidence": 0.9998393058776855
+        },
+        {
+          "character": "维",
+          "confidence": 0.9981495141983032
+        },
+        {
+          "character": "的",
+          "confidence": 0.9999746084213257
+        },
+        {
+          "character": "热",
+          "confidence": 0.9998806715011597
+        },
+        {
+          "character": "爱",
+          "confidence": 0.9999754428863525
+        },
+        {
+          "character": ",",
+          "confidence": 0.8309289813041687
+        },
+        {
+          "character": "以",
+          "confidence": 0.9999974966049194
+        },
+        {
+          "character": "及",
+          "confidence": 0.9999607801437378
+        },
+        {
+          "character": "J",
+          "confidence": 0.9938740134239197
+        },
+        {
+          "character": "S",
+          "confidence": 0.997613787651062
+        },
+        {
+          "character": "三",
+          "confidence": 0.9974347949028015
+        },
+        {
+          "character": "维",
+          "confidence": 0.9959337115287781
+        },
+        {
+          "character": "图",
+          "confidence": 0.9977536797523499
+        },
+        {
+          "character": "像",
+          "confidence": 0.9999468326568604
+        },
+        {
+          "character": "方",
+          "confidence": 0.9999287128448486
+        },
+        {
+          "character": "面",
+          "confidence": 0.999977707862854
+        },
+        {
+          "character": "的",
+          "confidence": 0.9998970031738281
+        },
+        {
+          "character": "初",
+          "confidence": 0.9997877478599548
+        },
+        {
+          "character": "次",
+          "confidence": 0.9999738931655884
+        },
+        {
+          "character": "探",
+          "confidence": 0.9998238682746887
+        },
+        {
+          "character": "索",
+          "confidence": 0.9999343156814575
+        },
+        {
+          "character": "为",
+          "confidence": 0.999969482421875
+        },
+        {
+          "character": "目",
+          "confidence": 0.9986144304275513
+        },
+        {
+          "character": "的",
+          "confidence": 0.9999501705169678
+        },
+        {
+          "character": "进",
+          "confidence": 0.999987006187439
+        },
+        {
+          "character": "行",
+          "confidence": 0.9999988079071045
+        },
+        {
+          "character": "初",
+          "confidence": 0.9998940229415894
+        },
+        {
+          "character": "步",
+          "confidence": 0.999987006187439
+        },
+        {
+          "character": "学",
+          "confidence": 0.9998941421508789
+        },
+        {
+          "character": "习",
+          "confidence": 0.9999538660049438
+        },
+        {
+          "character": ",",
+          "confidence": 0.9635821580886841
+        },
+        {
+          "character": "开",
+          "confidence": 0.999408483505249
+        },
+        {
+          "character": "发",
+          "confidence": 0.9999964237213135
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 21,
+        "word_size": 22
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9093473553657532,
+      "itemstring": "~ 6份三维模型.24W+条模型顶点数据处理,8000个粒子的XYZ坐标的位置控制",
+      "itemcoord": {
+        "x": 554,
+        "width": 558,
+        "y": 1052,
+        "height": 25
+      },
+      "coordpoint": {
+        "x": [
+          554,
+          1052,
+          1111,
+          1052,
+          1111,
+          1076,
+          554,
+          1076
+        ]
+      },
+      "words": [
+        {
+          "character": "~",
+          "confidence": 0.5480505228042603
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "6",
+          "confidence": 0.9999239444732666
+        },
+        {
+          "character": "份",
+          "confidence": 0.9977668523788452
+        },
+        {
+          "character": "三",
+          "confidence": 0.9994159936904907
+        },
+        {
+          "character": "维",
+          "confidence": 0.9622042179107666
+        },
+        {
+          "character": "模",
+          "confidence": 0.9952589869499207
+        },
+        {
+          "character": "型",
+          "confidence": 0.999854564666748
+        },
+        {
+          "character": ".",
+          "confidence": 0.39764031767845154
+        },
+        {
+          "character": "2",
+          "confidence": 0.9989581108093262
+        },
+        {
+          "character": "4",
+          "confidence": 0.9996569156646729
+        },
+        {
+          "character": "W",
+          "confidence": 0.9979440569877625
+        },
+        {
+          "character": "+",
+          "confidence": 0.8770603537559509
+        },
+        {
+          "character": "条",
+          "confidence": 0.9990345239639282
+        },
+        {
+          "character": "模",
+          "confidence": 0.995376706123352
+        },
+        {
+          "character": "型",
+          "confidence": 0.9997629523277283
+        },
+        {
+          "character": "顶",
+          "confidence": 0.5829731225967407
+        },
+        {
+          "character": "点",
+          "confidence": 0.9681596755981445
+        },
+        {
+          "character": "数",
+          "confidence": 0.9109432697296143
+        },
+        {
+          "character": "据",
+          "confidence": 0.9953896999359131
+        },
+        {
+          "character": "处",
+          "confidence": 0.9999717473983765
+        },
+        {
+          "character": "理",
+          "confidence": 0.99960857629776
+        },
+        {
+          "character": ",",
+          "confidence": 0.5939162373542786
+        },
+        {
+          "character": "8",
+          "confidence": 0.9948083758354187
+        },
+        {
+          "character": "0",
+          "confidence": 0.9912900924682617
+        },
+        {
+          "character": "0",
+          "confidence": 0.9973675608634949
+        },
+        {
+          "character": "0",
+          "confidence": 0.9991055130958557
+        },
+        {
+          "character": "个",
+          "confidence": 0.9999843835830688
+        },
+        {
+          "character": "粒",
+          "confidence": 0.9952747821807861
+        },
+        {
+          "character": "子",
+          "confidence": 0.9998655319213867
+        },
+        {
+          "character": "的",
+          "confidence": 0.9997883439064026
+        },
+        {
+          "character": "X",
+          "confidence": 0.5515946745872498
+        },
+        {
+          "character": "Y",
+          "confidence": 0.9948683977127075
+        },
+        {
+          "character": "Z",
+          "confidence": 0.9843279123306274
+        },
+        {
+          "character": "坐",
+          "confidence": 0.9978747367858887
+        },
+        {
+          "character": "标",
+          "confidence": 0.9978068470954895
+        },
+        {
+          "character": "的",
+          "confidence": 0.9999819993972778
+        },
+        {
+          "character": "位",
+          "confidence": 0.9998934268951416
+        },
+        {
+          "character": "置",
+          "confidence": 0.960715651512146
+        },
+        {
+          "character": "控",
+          "confidence": 0.9999310970306396
+        },
+        {
+          "character": "制",
+          "confidence": 0.9998900890350342
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 22,
+        "word_size": 21
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.8776360154151917,
+      "itemstring": "‘桂工助手N" APP o https://nano71.com/gan",
+      "itemcoord": {
+        "x": 544,
+        "width": 392,
+        "y": 1106,
+        "height": 24
+      },
+      "coordpoint": {
+        "x": [
+          544,
+          1106,
+          935,
+          1106,
+          935,
+          1129,
+          544,
+          1129
+        ]
+      },
+      "words": [
+        {
+          "character": "‘",
+          "confidence": 0.6886731386184692
+        },
+        {
+          "character": "桂",
+          "confidence": 0.998440682888031
+        },
+        {
+          "character": "工",
+          "confidence": 0.9993964433670044
+        },
+        {
+          "character": "助",
+          "confidence": 0.9997902512550354
+        },
+        {
+          "character": "手",
+          "confidence": 0.9996134638786316
+        },
+        {
+          "character": "N",
+          "confidence": 0.9954078793525696
+        },
+        {
+          "character": """,
+          "confidence": 0.8294749855995178
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "A",
+          "confidence": 0.9999195337295532
+        },
+        {
+          "character": "P",
+          "confidence": 0.9969993829727173
+        },
+        {
+          "character": "P",
+          "confidence": 0.9981257319450378
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "o",
+          "confidence": 0.361363023519516
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "h",
+          "confidence": 0.999932050704956
+        },
+        {
+          "character": "t",
+          "confidence": 0.999778687953949
+        },
+        {
+          "character": "t",
+          "confidence": 0.9971649050712585
+        },
+        {
+          "character": "p",
+          "confidence": 0.9948203563690186
+        },
+        {
+          "character": "s",
+          "confidence": 0.998263418674469
+        },
+        {
+          "character": ":",
+          "confidence": 0.9968094229698181
+        },
+        {
+          "character": "/",
+          "confidence": 0.9910179376602173
+        },
+        {
+          "character": "/",
+          "confidence": 0.982229471206665
+        },
+        {
+          "character": "n",
+          "confidence": 0.8533600568771362
+        },
+        {
+          "character": "a",
+          "confidence": 0.9983558058738708
+        },
+        {
+          "character": "n",
+          "confidence": 0.9509749412536621
+        },
+        {
+          "character": "o",
+          "confidence": 0.9806384444236755
+        },
+        {
+          "character": "7",
+          "confidence": 0.9989792108535767
+        },
+        {
+          "character": "1",
+          "confidence": 0.9908726811408997
+        },
+        {
+          "character": ".",
+          "confidence": 0.9999008178710938
+        },
+        {
+          "character": "c",
+          "confidence": 0.9997017979621887
+        },
+        {
+          "character": "o",
+          "confidence": 0.9992491602897644
+        },
+        {
+          "character": "m",
+          "confidence": 0.9998476505279541
+        },
+        {
+          "character": "/",
+          "confidence": 0.9962599277496338
+        },
+        {
+          "character": "g",
+          "confidence": 0.9999350309371948
+        },
+        {
+          "character": "a",
+          "confidence": 0.9999275207519531
+        },
+        {
+          "character": "n",
+          "confidence": 0.9996726512908936
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 23,
+        "word_size": 20
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.8073768615722656,
+      "itemstring": "2021.11 - Now",
+      "itemcoord": {
+        "x": 1131,
+        "width": 126,
+        "y": 1106,
+        "height": 24
+      },
+      "coordpoint": {
+        "x": [
+          1131,
+          1106,
+          1256,
+          1106,
+          1256,
+          1129,
+          1131,
+          1129
+        ]
+      },
+      "words": [
+        {
+          "character": "2",
+          "confidence": 0.9999444484710693
+        },
+        {
+          "character": "0",
+          "confidence": 0.9997814297676086
+        },
+        {
+          "character": "2",
+          "confidence": 0.9996587038040161
+        },
+        {
+          "character": "1",
+          "confidence": 0.9996711015701294
+        },
+        {
+          "character": ".",
+          "confidence": 0.999099612236023
+        },
+        {
+          "character": "1",
+          "confidence": 0.9996562004089355
+        },
+        {
+          "character": "1",
+          "confidence": 0.9997186064720154
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "-",
+          "confidence": 0.9515604972839355
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "N",
+          "confidence": 0.999729573726654
+        },
+        {
+          "character": "o",
+          "confidence": 0.9907660484313965
+        },
+        {
+          "character": "w",
+          "confidence": 0.556312084197998
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 47,
+        "word_size": 20
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9800913333892822,
+      "itemstring": "一应学校邀请,业余时间独立开发一个方便学生查看课表考试的跨平台移动端应用",
+      "itemcoord": {
+        "x": 547,
+        "width": 564,
+        "y": 1146,
+        "height": 28
+      },
+      "coordpoint": {
+        "x": [
+          547,
+          1146,
+          1110,
+          1146,
+          1110,
+          1173,
+          547,
+          1173
+        ]
+      },
+      "words": [
+        {
+          "character": "一",
+          "confidence": 0.7555209994316101
+        },
+        {
+          "character": "应",
+          "confidence": 0.9996157884597778
+        },
+        {
+          "character": "学",
+          "confidence": 0.9986227750778198
+        },
+        {
+          "character": "校",
+          "confidence": 0.9997884631156921
+        },
+        {
+          "character": "邀",
+          "confidence": 0.9957889914512634
+        },
+        {
+          "character": "请",
+          "confidence": 0.999187171459198
+        },
+        {
+          "character": ",",
+          "confidence": 0.6746346354484558
+        },
+        {
+          "character": "业",
+          "confidence": 0.9997110962867737
+        },
+        {
+          "character": "余",
+          "confidence": 0.999828577041626
+        },
+        {
+          "character": "时",
+          "confidence": 0.999974250793457
+        },
+        {
+          "character": "间",
+          "confidence": 0.9999876022338867
+        },
+        {
+          "character": "独",
+          "confidence": 0.9999990463256836
+        },
+        {
+          "character": "立",
+          "confidence": 0.9999740123748779
+        },
+        {
+          "character": "开",
+          "confidence": 0.9999381303787231
+        },
+        {
+          "character": "发",
+          "confidence": 0.9999990463256836
+        },
+        {
+          "character": "一",
+          "confidence": 0.8825023174285889
+        },
+        {
+          "character": "个",
+          "confidence": 0.9999773502349854
+        },
+        {
+          "character": "方",
+          "confidence": 0.9995726943016052
+        },
+        {
+          "character": "便",
+          "confidence": 0.9975594282150269
+        },
+        {
+          "character": "学",
+          "confidence": 0.9999486207962036
+        },
+        {
+          "character": "生",
+          "confidence": 0.9999730587005615
+        },
+        {
+          "character": "查",
+          "confidence": 0.9991902709007263
+        },
+        {
+          "character": "看",
+          "confidence": 0.9888878464698792
+        },
+        {
+          "character": "课",
+          "confidence": 0.9998213648796082
+        },
+        {
+          "character": "表",
+          "confidence": 0.9993610978126526
+        },
+        {
+          "character": "考",
+          "confidence": 0.9976882934570312
+        },
+        {
+          "character": "试",
+          "confidence": 0.9993808269500732
+        },
+        {
+          "character": "的",
+          "confidence": 0.9999490976333618
+        },
+        {
+          "character": "跨",
+          "confidence": 0.9999202489852905
+        },
+        {
+          "character": "平",
+          "confidence": 0.999705970287323
+        },
+        {
+          "character": "台",
+          "confidence": 0.9976365566253662
+        },
+        {
+          "character": "移",
+          "confidence": 0.9999407529830933
+        },
+        {
+          "character": "动",
+          "confidence": 0.9999774694442749
+        },
+        {
+          "character": "端",
+          "confidence": 0.999825656414032
+        },
+        {
+          "character": "应",
+          "confidence": 0.9999779462814331
+        },
+        {
+          "character": "用",
+          "confidence": 0.999924898147583
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 24,
+        "word_size": 22
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9344253540039062,
+      "itemstring": "”使用GitHub release API实现APP的新版本检测功能,且版本更新的重要程度可控",
+      "itemcoord": {
+        "x": 552,
+        "width": 559,
+        "y": 1177,
+        "height": 21
+      },
+      "coordpoint": {
+        "x": [
+          552,
+          1177,
+          1110,
+          1177,
+          1110,
+          1197,
+          552,
+          1197
+        ]
+      },
+      "words": [
+        {
+          "character": "”",
+          "confidence": 0.2874915301799774
+        },
+        {
+          "character": "使",
+          "confidence": 0.9999877214431763
+        },
+        {
+          "character": "用",
+          "confidence": 0.9997665286064148
+        },
+        {
+          "character": "G",
+          "confidence": 0.988338053226471
+        },
+        {
+          "character": "i",
+          "confidence": 0.9896371960639954
+        },
+        {
+          "character": "t",
+          "confidence": 0.9998345375061035
+        },
+        {
+          "character": "H",
+          "confidence": 0.9992684721946716
+        },
+        {
+          "character": "u",
+          "confidence": 0.9980428218841553
+        },
+        {
+          "character": "b",
+          "confidence": 0.9999220371246338
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "r",
+          "confidence": 0.9999325275421143
+        },
+        {
+          "character": "e",
+          "confidence": 0.9998824596405029
+        },
+        {
+          "character": "l",
+          "confidence": 0.9989919066429138
+        },
+        {
+          "character": "e",
+          "confidence": 0.9998703002929688
+        },
+        {
+          "character": "a",
+          "confidence": 0.999970555305481
+        },
+        {
+          "character": "s",
+          "confidence": 0.9999526739120483
+        },
+        {
+          "character": "e",
+          "confidence": 0.9999462366104126
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "A",
+          "confidence": 0.9992886781692505
+        },
+        {
+          "character": "P",
+          "confidence": 0.9988201260566711
+        },
+        {
+          "character": "I",
+          "confidence": 0.6975041031837463
+        },
+        {
+          "character": "实",
+          "confidence": 0.9999865293502808
+        },
+        {
+          "character": "现",
+          "confidence": 0.9999464750289917
+        },
+        {
+          "character": "A",
+          "confidence": 0.999916672706604
+        },
+        {
+          "character": "P",
+          "confidence": 0.998874843120575
+        },
+        {
+          "character": "P",
+          "confidence": 0.99847012758255
+        },
+        {
+          "character": "的",
+          "confidence": 0.9999394416809082
+        },
+        {
+          "character": "新",
+          "confidence": 0.9999622106552124
+        },
+        {
+          "character": "版",
+          "confidence": 0.9921746850013733
+        },
+        {
+          "character": "本",
+          "confidence": 0.9998989105224609
+        },
+        {
+          "character": "检",
+          "confidence": 0.999442994594574
+        },
+        {
+          "character": "测",
+          "confidence": 0.9961995482444763
+        },
+        {
+          "character": "功",
+          "confidence": 0.9999790191650391
+        },
+        {
+          "character": "能",
+          "confidence": 0.9999934434890747
+        },
+        {
+          "character": ",",
+          "confidence": 0.9783623814582825
+        },
+        {
+          "character": "且",
+          "confidence": 0.9997116923332214
+        },
+        {
+          "character": "版",
+          "confidence": 0.9999814033508301
+        },
+        {
+          "character": "本",
+          "confidence": 0.999713122844696
+        },
+        {
+          "character": "更",
+          "confidence": 0.9999970197677612
+        },
+        {
+          "character": "新",
+          "confidence": 0.9999775886535645
+        },
+        {
+          "character": "的",
+          "confidence": 0.999970555305481
+        },
+        {
+          "character": "重",
+          "confidence": 0.9999985694885254
+        },
+        {
+          "character": "要",
+          "confidence": 0.9998096823692322
+        },
+        {
+          "character": "程",
+          "confidence": 0.9999990463256836
+        },
+        {
+          "character": "度",
+          "confidence": 0.9999984502792358
+        },
+        {
+          "character": "可",
+          "confidence": 0.9999662637710571
+        },
+        {
+          "character": "控",
+          "confidence": 0.9992768168449402
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 24,
+        "word_size": 22
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9718737006187439,
+      "itemstring": "-5套主题自由切换,成绩查询,课表区分显示,自动的当前周判断,持久本地缓存",
+      "itemcoord": {
+        "x": 553,
+        "width": 558,
+        "y": 1199,
+        "height": 25
+      },
+      "coordpoint": {
+        "x": [
+          553,
+          1199,
+          1110,
+          1199,
+          1110,
+          1223,
+          553,
+          1223
+        ]
+      },
+      "words": [
+        {
+          "character": "-",
+          "confidence": 0.9239240884780884
+        },
+        {
+          "character": "5",
+          "confidence": 0.9957736134529114
+        },
+        {
+          "character": "套",
+          "confidence": 0.9999984502792358
+        },
+        {
+          "character": "主",
+          "confidence": 0.9998637437820435
+        },
+        {
+          "character": "题",
+          "confidence": 0.9784199595451355
+        },
+        {
+          "character": "自",
+          "confidence": 0.9982584118843079
+        },
+        {
+          "character": "由",
+          "confidence": 0.9988675117492676
+        },
+        {
+          "character": "切",
+          "confidence": 0.9999449253082275
+        },
+        {
+          "character": "换",
+          "confidence": 0.9935885667800903
+        },
+        {
+          "character": ",",
+          "confidence": 0.6619912385940552
+        },
+        {
+          "character": "成",
+          "confidence": 0.9960556030273438
+        },
+        {
+          "character": "绩",
+          "confidence": 0.9997085928916931
+        },
+        {
+          "character": "查",
+          "confidence": 0.9998537302017212
+        },
+        {
+          "character": "询",
+          "confidence": 0.9989703893661499
+        },
+        {
+          "character": ",",
+          "confidence": 0.8731425404548645
+        },
+        {
+          "character": "课",
+          "confidence": 0.9998750686645508
+        },
+        {
+          "character": "表",
+          "confidence": 0.9993593096733093
+        },
+        {
+          "character": "区",
+          "confidence": 0.9992129802703857
+        },
+        {
+          "character": "分",
+          "confidence": 0.9999263286590576
+        },
+        {
+          "character": "显",
+          "confidence": 0.9999934434890747
+        },
+        {
+          "character": "示",
+          "confidence": 0.9999890327453613
+        },
+        {
+          "character": ",",
+          "confidence": 0.7537855505943298
+        },
+        {
+          "character": "自",
+          "confidence": 0.9999783039093018
+        },
+        {
+          "character": "动",
+          "confidence": 0.9999265670776367
+        },
+        {
+          "character": "的",
+          "confidence": 0.9999818801879883
+        },
+        {
+          "character": "当",
+          "confidence": 0.999980092048645
+        },
+        {
+          "character": "前",
+          "confidence": 0.999705970287323
+        },
+        {
+          "character": "周",
+          "confidence": 0.9997015595436096
+        },
+        {
+          "character": "判",
+          "confidence": 0.9999829530715942
+        },
+        {
+          "character": "断",
+          "confidence": 0.9946604371070862
+        },
+        {
+          "character": ",",
+          "confidence": 0.847696840763092
+        },
+        {
+          "character": "持",
+          "confidence": 0.9763666391372681
+        },
+        {
+          "character": "久",
+          "confidence": 0.996076762676239
+        },
+        {
+          "character": "本",
+          "confidence": 0.9996228218078613
+        },
+        {
+          "character": "地",
+          "confidence": 0.9998831748962402
+        },
+        {
+          "character": "缓",
+          "confidence": 0.9752807021141052
+        },
+        {
+          "character": "存",
+          "confidence": 0.9999819993972778
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 24,
+        "word_size": 22
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9998784065246582,
+      "itemstring": "技能证书",
+      "itemcoord": {
+        "x": 547,
+        "width": 129,
+        "y": 1266,
+        "height": 34
+      },
+      "coordpoint": {
+        "x": [
+          547,
+          1266,
+          675,
+          1266,
+          675,
+          1299,
+          547,
+          1299
+        ]
+      },
+      "words": [
+        {
+          "character": "技",
+          "confidence": 0.9999485015869141
+        },
+        {
+          "character": "能",
+          "confidence": 0.9999963045120239
+        },
+        {
+          "character": "证",
+          "confidence": 0.9995697140693665
+        },
+        {
+          "character": "书",
+          "confidence": 0.9999990463256836
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 24,
+        "word_size": 22
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9994757175445557,
+      "itemstring": "计算机等级考试三级网络技术",
+      "itemcoord": {
+        "x": 545,
+        "width": 231,
+        "y": 1308,
+        "height": 25
+      },
+      "coordpoint": {
+        "x": [
+          545,
+          1308,
+          775,
+          1308,
+          775,
+          1332,
+          545,
+          1332
+        ]
+      },
+      "words": [
+        {
+          "character": "计",
+          "confidence": 0.9999105930328369
+        },
+        {
+          "character": "算",
+          "confidence": 0.9989336133003235
+        },
+        {
+          "character": "机",
+          "confidence": 0.9995909333229065
+        },
+        {
+          "character": "等",
+          "confidence": 0.9998001456260681
+        },
+        {
+          "character": "级",
+          "confidence": 0.9997316002845764
+        },
+        {
+          "character": "考",
+          "confidence": 0.9998362064361572
+        },
+        {
+          "character": "试",
+          "confidence": 0.9999454021453857
+        },
+        {
+          "character": "三",
+          "confidence": 0.999538779258728
+        },
+        {
+          "character": "级",
+          "confidence": 0.997115969657898
+        },
+        {
+          "character": "网",
+          "confidence": 0.9998741149902344
+        },
+        {
+          "character": "络",
+          "confidence": 0.9989677667617798
+        },
+        {
+          "character": "技",
+          "confidence": 0.999947190284729
+        },
+        {
+          "character": "术",
+          "confidence": 0.9999915361404419
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 25,
+        "word_size": 21
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9462329745292664,
+      "itemstring": "2020.9",
+      "itemcoord": {
+        "x": 1195,
+        "width": 62,
+        "y": 1308,
+        "height": 23
+      },
+      "coordpoint": {
+        "x": [
+          1195,
+          1308,
+          1256,
+          1308,
+          1256,
+          1330,
+          1195,
+          1330
+        ]
+      },
+      "words": [
+        {
+          "character": "2",
+          "confidence": 0.9999467134475708
+        },
+        {
+          "character": "0",
+          "confidence": 0.9999502897262573
+        },
+        {
+          "character": "2",
+          "confidence": 0.6930494904518127
+        },
+        {
+          "character": "0",
+          "confidence": 0.9999325275421143
+        },
+        {
+          "character": ".",
+          "confidence": 0.9994526505470276
+        },
+        {
+          "character": "9",
+          "confidence": 0.9850661754608154
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 48,
+        "word_size": 19
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9240031242370605,
+      "itemstring": "-证书编号: 35584502838077",
+      "itemcoord": {
+        "x": 551,
+        "width": 197,
+        "y": 1353,
+        "height": 22
+      },
+      "coordpoint": {
+        "x": [
+          551,
+          1353,
+          747,
+          1353,
+          747,
+          1374,
+          551,
+          1374
+        ]
+      },
+      "words": [
+        {
+          "character": "-",
+          "confidence": 0.6320358514785767
+        },
+        {
+          "character": "证",
+          "confidence": 0.9999524354934692
+        },
+        {
+          "character": "书",
+          "confidence": 0.9970249533653259
+        },
+        {
+          "character": "编",
+          "confidence": 0.9992458820343018
+        },
+        {
+          "character": "号",
+          "confidence": 0.9999914169311523
+        },
+        {
+          "character": ":",
+          "confidence": 0.992817759513855
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "3",
+          "confidence": 0.9997459053993225
+        },
+        {
+          "character": "5",
+          "confidence": 0.99980229139328
+        },
+        {
+          "character": "5",
+          "confidence": 0.9982336759567261
+        },
+        {
+          "character": "8",
+          "confidence": 0.9999008178710938
+        },
+        {
+          "character": "4",
+          "confidence": 0.9999722242355347
+        },
+        {
+          "character": "5",
+          "confidence": 0.9999608993530273
+        },
+        {
+          "character": "0",
+          "confidence": 0.9996242523193359
+        },
+        {
+          "character": "2",
+          "confidence": 0.999818742275238
+        },
+        {
+          "character": "8",
+          "confidence": 0.9997593760490417
+        },
+        {
+          "character": "3",
+          "confidence": 0.7923164963722229
+        },
+        {
+          "character": "8",
+          "confidence": 0.9997406601905823
+        },
+        {
+          "character": "0",
+          "confidence": 0.9999668598175049
+        },
+        {
+          "character": "7",
+          "confidence": 0.999956488609314
+        },
+        {
+          "character": "7",
+          "confidence": 0.9941979646682739
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 26,
+        "word_size": 18
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9997366070747375,
+      "itemstring": "2021.6",
+      "itemcoord": {
+        "x": 1195,
+        "width": 59,
+        "y": 1393,
+        "height": 20
+      },
+      "coordpoint": {
+        "x": [
+          1195,
+          1393,
+          1253,
+          1393,
+          1253,
+          1412,
+          1195,
+          1412
+        ]
+      },
+      "words": [
+        {
+          "character": "2",
+          "confidence": 0.9999420642852783
+        },
+        {
+          "character": "0",
+          "confidence": 0.9991981387138367
+        },
+        {
+          "character": "2",
+          "confidence": 0.9998133778572083
+        },
+        {
+          "character": "1",
+          "confidence": 0.9998661279678345
+        },
+        {
+          "character": ".",
+          "confidence": 0.9997591376304626
+        },
+        {
+          "character": "6",
+          "confidence": 0.999840497970581
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 49,
+        "word_size": 17
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9264001250267029,
+      "itemstring": "Jetson Nano人工智能入门证书",
+      "itemcoord": {
+        "x": 546,
+        "width": 242,
+        "y": 1403,
+        "height": 28
+      },
+      "coordpoint": {
+        "x": [
+          546,
+          1403,
+          787,
+          1403,
+          787,
+          1430,
+          546,
+          1430
+        ]
+      },
+      "words": [
+        {
+          "character": "J",
+          "confidence": 0.9600589275360107
+        },
+        {
+          "character": "e",
+          "confidence": 0.9959530830383301
+        },
+        {
+          "character": "t",
+          "confidence": 0.9973033666610718
+        },
+        {
+          "character": "s",
+          "confidence": 0.9965686798095703
+        },
+        {
+          "character": "o",
+          "confidence": 0.9929676055908203
+        },
+        {
+          "character": "n",
+          "confidence": 0.9903246164321899
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "N",
+          "confidence": 0.9595640897750854
+        },
+        {
+          "character": "a",
+          "confidence": 0.9959263801574707
+        },
+        {
+          "character": "n",
+          "confidence": 0.9959262609481812
+        },
+        {
+          "character": "o",
+          "confidence": 0.7835149765014648
+        },
+        {
+          "character": "人",
+          "confidence": 0.9509508013725281
+        },
+        {
+          "character": "工",
+          "confidence": 0.9996417760848999
+        },
+        {
+          "character": "智",
+          "confidence": 0.9998515844345093
+        },
+        {
+          "character": "能",
+          "confidence": 0.9999908208847046
+        },
+        {
+          "character": "入",
+          "confidence": 0.9999421834945679
+        },
+        {
+          "character": "门",
+          "confidence": 0.9954622387886047
+        },
+        {
+          "character": "证",
+          "confidence": 0.9908466935157776
+        },
+        {
+          "character": "书",
+          "confidence": 0.996809184551239
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 27,
+        "word_size": 23
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9338282346725464,
+      "itemstring": "一证 书编号: 2c473bdbbad3408b955cfa3127b07e23",
+      "itemcoord": {
+        "x": 548,
+        "width": 358,
+        "y": 1436,
+        "height": 24
+      },
+      "coordpoint": {
+        "x": [
+          548,
+          1436,
+          905,
+          1436,
+          905,
+          1459,
+          548,
+          1459
+        ]
+      },
+      "words": [
+        {
+          "character": "一",
+          "confidence": 0.8336525559425354
+        },
+        {
+          "character": "证",
+          "confidence": 0.9999657869338989
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "书",
+          "confidence": 0.9999176263809204
+        },
+        {
+          "character": "编",
+          "confidence": 0.992590069770813
+        },
+        {
+          "character": "号",
+          "confidence": 0.999813973903656
+        },
+        {
+          "character": ":",
+          "confidence": 0.9551107883453369
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "2",
+          "confidence": 0.9999657869338989
+        },
+        {
+          "character": "c",
+          "confidence": 0.9585897326469421
+        },
+        {
+          "character": "4",
+          "confidence": 0.9997979998588562
+        },
+        {
+          "character": "7",
+          "confidence": 0.999942421913147
+        },
+        {
+          "character": "3",
+          "confidence": 0.9997885823249817
+        },
+        {
+          "character": "b",
+          "confidence": 0.9988504648208618
+        },
+        {
+          "character": "d",
+          "confidence": 0.9654338955879211
+        },
+        {
+          "character": "b",
+          "confidence": 0.9996920824050903
+        },
+        {
+          "character": "b",
+          "confidence": 0.9992732405662537
+        },
+        {
+          "character": "a",
+          "confidence": 0.9988780617713928
+        },
+        {
+          "character": "d",
+          "confidence": 0.9986937642097473
+        },
+        {
+          "character": "3",
+          "confidence": 0.9994080066680908
+        },
+        {
+          "character": "4",
+          "confidence": 0.9931271076202393
+        },
+        {
+          "character": "0",
+          "confidence": 0.9882670044898987
+        },
+        {
+          "character": "8",
+          "confidence": 0.9985803365707397
+        },
+        {
+          "character": "b",
+          "confidence": 0.9959478974342346
+        },
+        {
+          "character": "9",
+          "confidence": 0.9999096393585205
+        },
+        {
+          "character": "5",
+          "confidence": 0.9844890832901001
+        },
+        {
+          "character": "5",
+          "confidence": 0.9975423812866211
+        },
+        {
+          "character": "c",
+          "confidence": 0.9914997220039368
+        },
+        {
+          "character": "f",
+          "confidence": 0.9982547163963318
+        },
+        {
+          "character": "a",
+          "confidence": 0.9998645782470703
+        },
+        {
+          "character": "3",
+          "confidence": 0.9997339844703674
+        },
+        {
+          "character": "1",
+          "confidence": 0.9912726283073425
+        },
+        {
+          "character": "2",
+          "confidence": 0.9997417330741882
+        },
+        {
+          "character": "7",
+          "confidence": 0.9993447661399841
+        },
+        {
+          "character": "b",
+          "confidence": 0.994498074054718
+        },
+        {
+          "character": "0",
+          "confidence": 0.7255822420120239
+        },
+        {
+          "character": "7",
+          "confidence": 0.9982782602310181
+        },
+        {
+          "character": "e",
+          "confidence": 0.998251736164093
+        },
+        {
+          "character": "2",
+          "confidence": 0.9999433755874634
+        },
+        {
+          "character": "3",
+          "confidence": 0.9996289014816284
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 28,
+        "word_size": 20
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9983106255531311,
+      "itemstring": "英伟达深度学习研究所视频分析",
+      "itemcoord": {
+        "x": 548,
+        "width": 243,
+        "y": 1473,
+        "height": 23
+      },
+      "coordpoint": {
+        "x": [
+          548,
+          1473,
+          790,
+          1473,
+          790,
+          1495,
+          548,
+          1495
+        ]
+      },
+      "words": [
+        {
+          "character": "英",
+          "confidence": 0.9995743632316589
+        },
+        {
+          "character": "伟",
+          "confidence": 0.9998024106025696
+        },
+        {
+          "character": "达",
+          "confidence": 0.9999186992645264
+        },
+        {
+          "character": "深",
+          "confidence": 0.9998263716697693
+        },
+        {
+          "character": "度",
+          "confidence": 0.9927787184715271
+        },
+        {
+          "character": "学",
+          "confidence": 0.9988487958908081
+        },
+        {
+          "character": "习",
+          "confidence": 0.9997586607933044
+        },
+        {
+          "character": "研",
+          "confidence": 0.9998817443847656
+        },
+        {
+          "character": "究",
+          "confidence": 0.9968235492706299
+        },
+        {
+          "character": "所",
+          "confidence": 0.9999983310699463
+        },
+        {
+          "character": "视",
+          "confidence": 0.9911584258079529
+        },
+        {
+          "character": "频",
+          "confidence": 0.9988308548927307
+        },
+        {
+          "character": "分",
+          "confidence": 0.9999951124191284
+        },
+        {
+          "character": "析",
+          "confidence": 0.9991532564163208
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 29,
+        "word_size": 19
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9572742581367493,
+      "itemstring": "021.6",
+      "itemcoord": {
+        "x": 1214,
+        "width": 43,
+        "y": 1473,
+        "height": 23
+      },
+      "coordpoint": {
+        "x": [
+          1214,
+          1473,
+          1256,
+          1473,
+          1256,
+          1495,
+          1214,
+          1495
+        ]
+      },
+      "words": [
+        {
+          "character": "0",
+          "confidence": 0.9987585544586182
+        },
+        {
+          "character": "2",
+          "confidence": 0.7880251407623291
+        },
+        {
+          "character": "1",
+          "confidence": 0.9998742341995239
+        },
+        {
+          "character": ".",
+          "confidence": 0.9998666048049927
+        },
+        {
+          "character": "6",
+          "confidence": 0.9998466968536377
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 50,
+        "word_size": 19
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9194734692573547,
+      "itemstring": "Jetson Nano视频分析入门证书",
+      "itemcoord": {
+        "x": 546,
+        "width": 244,
+        "y": 1497,
+        "height": 22
+      },
+      "coordpoint": {
+        "x": [
+          546,
+          1497,
+          789,
+          1497,
+          789,
+          1518,
+          546,
+          1518
+        ]
+      },
+      "words": [
+        {
+          "character": "J",
+          "confidence": 0.9989166259765625
+        },
+        {
+          "character": "e",
+          "confidence": 0.999735414981842
+        },
+        {
+          "character": "t",
+          "confidence": 0.999460756778717
+        },
+        {
+          "character": "s",
+          "confidence": 0.9978373646736145
+        },
+        {
+          "character": "o",
+          "confidence": 0.9991439580917358
+        },
+        {
+          "character": "n",
+          "confidence": 0.9920017719268799
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "N",
+          "confidence": 0.5102051496505737
+        },
+        {
+          "character": "a",
+          "confidence": 0.9994507431983948
+        },
+        {
+          "character": "n",
+          "confidence": 0.9992647767066956
+        },
+        {
+          "character": "o",
+          "confidence": 0.9951208233833313
+        },
+        {
+          "character": "视",
+          "confidence": 0.9801111817359924
+        },
+        {
+          "character": "频",
+          "confidence": 0.9998784065246582
+        },
+        {
+          "character": "分",
+          "confidence": 0.9999959468841553
+        },
+        {
+          "character": "析",
+          "confidence": 0.9998990297317505
+        },
+        {
+          "character": "入",
+          "confidence": 0.9999780654907227
+        },
+        {
+          "character": "门",
+          "confidence": 0.9999837875366211
+        },
+        {
+          "character": "证",
+          "confidence": 0.9998461008071899
+        },
+        {
+          "character": "书",
+          "confidence": 0.9991662502288818
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 30,
+        "word_size": 18
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9505842328071594,
+      "itemstring": "一证书编号: c674fa941318407dba13123486b3c873",
+      "itemcoord": {
+        "x": 548,
+        "width": 350,
+        "y": 1517,
+        "height": 25
+      },
+      "coordpoint": {
+        "x": [
+          548,
+          1517,
+          897,
+          1517,
+          897,
+          1541,
+          548,
+          1541
+        ]
+      },
+      "words": [
+        {
+          "character": "一",
+          "confidence": 0.7660209536552429
+        },
+        {
+          "character": "证",
+          "confidence": 0.9994656443595886
+        },
+        {
+          "character": "书",
+          "confidence": 0.9998525381088257
+        },
+        {
+          "character": "编",
+          "confidence": 0.9966796636581421
+        },
+        {
+          "character": "号",
+          "confidence": 0.9998793601989746
+        },
+        {
+          "character": ":",
+          "confidence": 0.9845729470252991
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "c",
+          "confidence": 0.9981095790863037
+        },
+        {
+          "character": "6",
+          "confidence": 0.9979988932609558
+        },
+        {
+          "character": "7",
+          "confidence": 0.999617338180542
+        },
+        {
+          "character": "4",
+          "confidence": 0.9996703863143921
+        },
+        {
+          "character": "f",
+          "confidence": 0.9885591864585876
+        },
+        {
+          "character": "a",
+          "confidence": 0.9962263107299805
+        },
+        {
+          "character": "9",
+          "confidence": 0.9997050166130066
+        },
+        {
+          "character": "4",
+          "confidence": 0.9994369149208069
+        },
+        {
+          "character": "1",
+          "confidence": 0.9951468110084534
+        },
+        {
+          "character": "3",
+          "confidence": 0.9991680383682251
+        },
+        {
+          "character": "1",
+          "confidence": 0.9799403548240662
+        },
+        {
+          "character": "8",
+          "confidence": 0.9972553849220276
+        },
+        {
+          "character": "4",
+          "confidence": 0.5860610008239746
+        },
+        {
+          "character": "0",
+          "confidence": 0.9994283318519592
+        },
+        {
+          "character": "7",
+          "confidence": 0.9998443126678467
+        },
+        {
+          "character": "d",
+          "confidence": 0.9989200830459595
+        },
+        {
+          "character": "b",
+          "confidence": 0.9996670484542847
+        },
+        {
+          "character": "a",
+          "confidence": 0.999839186668396
+        },
+        {
+          "character": "1",
+          "confidence": 0.9692163467407227
+        },
+        {
+          "character": "3",
+          "confidence": 0.9994113445281982
+        },
+        {
+          "character": "1",
+          "confidence": 0.9749757051467896
+        },
+        {
+          "character": "2",
+          "confidence": 0.999966025352478
+        },
+        {
+          "character": "3",
+          "confidence": 0.9986691474914551
+        },
+        {
+          "character": "4",
+          "confidence": 0.999589741230011
+        },
+        {
+          "character": "8",
+          "confidence": 0.9984032511711121
+        },
+        {
+          "character": "6",
+          "confidence": 0.9954074025154114
+        },
+        {
+          "character": "b",
+          "confidence": 0.9935817718505859
+        },
+        {
+          "character": "3",
+          "confidence": 0.9997888207435608
+        },
+        {
+          "character": "c",
+          "confidence": 0.8636049628257751
+        },
+        {
+          "character": "8",
+          "confidence": 0.9994804263114929
+        },
+        {
+          "character": "7",
+          "confidence": 0.9999059438705444
+        },
+        {
+          "character": "3",
+          "confidence": 0.99972003698349
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 31,
+        "word_size": 21
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.999635636806488,
+      "itemstring": "校内经历",
+      "itemcoord": {
+        "x": 542,
+        "width": 130,
+        "y": 1562,
+        "height": 37
+      },
+      "coordpoint": {
+        "x": [
+          542,
+          1562,
+          671,
+          1562,
+          671,
+          1598,
+          542,
+          1598
+        ]
+      },
+      "words": [
+        {
+          "character": "校",
+          "confidence": 0.9998313188552856
+        },
+        {
+          "character": "内",
+          "confidence": 0.998755931854248
+        },
+        {
+          "character": "经",
+          "confidence": 0.999957799911499
+        },
+        {
+          "character": "历",
+          "confidence": 0.9999973773956299
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 32,
+        "word_size": 31
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9996129870414734,
+      "itemstring": "计算机应用系前端开发",
+      "itemcoord": {
+        "x": 543,
+        "width": 178,
+        "y": 1604,
+        "height": 26
+      },
+      "coordpoint": {
+        "x": [
+          543,
+          1604,
+          720,
+          1604,
+          720,
+          1629,
+          543,
+          1629
+        ]
+      },
+      "words": [
+        {
+          "character": "计",
+          "confidence": 0.9994152784347534
+        },
+        {
+          "character": "算",
+          "confidence": 0.9994601607322693
+        },
+        {
+          "character": "机",
+          "confidence": 0.9994926452636719
+        },
+        {
+          "character": "应",
+          "confidence": 0.9997170567512512
+        },
+        {
+          "character": "用",
+          "confidence": 0.998417854309082
+        },
+        {
+          "character": "系",
+          "confidence": 0.9999889135360718
+        },
+        {
+          "character": "前",
+          "confidence": 0.9999607801437378
+        },
+        {
+          "character": "端",
+          "confidence": 0.9998443126678467
+        },
+        {
+          "character": "开",
+          "confidence": 0.9998610019683838
+        },
+        {
+          "character": "发",
+          "confidence": 0.9999719858169556
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 33,
+        "word_size": 22
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.828964114189148,
+      "itemstring": "2021.3- 2024.6 .",
+      "itemcoord": {
+        "x": 1120,
+        "width": 136,
+        "y": 1606,
+        "height": 24
+      },
+      "coordpoint": {
+        "x": [
+          1120,
+          1606,
+          1255,
+          1606,
+          1255,
+          1629,
+          1120,
+          1629
+        ]
+      },
+      "words": [
+        {
+          "character": "2",
+          "confidence": 0.9999574422836304
+        },
+        {
+          "character": "0",
+          "confidence": 0.9998656511306763
+        },
+        {
+          "character": "2",
+          "confidence": 0.9995920062065125
+        },
+        {
+          "character": "1",
+          "confidence": 0.9978501796722412
+        },
+        {
+          "character": ".",
+          "confidence": 0.969732940196991
+        },
+        {
+          "character": "3",
+          "confidence": 0.9995922446250916
+        },
+        {
+          "character": "-",
+          "confidence": 0.9777899980545044
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "2",
+          "confidence": 0.9768367409706116
+        },
+        {
+          "character": "0",
+          "confidence": 0.9998880624771118
+        },
+        {
+          "character": "2",
+          "confidence": 0.9997866749763489
+        },
+        {
+          "character": "4",
+          "confidence": 0.9999741315841675
+        },
+        {
+          "character": ".",
+          "confidence": 0.9998075366020203
+        },
+        {
+          "character": "6",
+          "confidence": 0.9993938207626343
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": ".",
+          "confidence": 0.34335869550704956
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 51,
+        "word_size": 20
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9280049204826355,
+      "itemstring": "独立负责一二三级页面编码，U1设计,以及后续的代码维护",
+      "itemcoord": {
+        "x": 546,
+        "width": 374,
+        "y": 1627,
+        "height": 31
+      },
+      "coordpoint": {
+        "x": [
+          546,
+          1627,
+          919,
+          1627,
+          919,
+          1657,
+          546,
+          1657
+        ]
+      },
+      "words": [
+        {
+          "character": "独",
+          "confidence": 0.9999845027923584
+        },
+        {
+          "character": "立",
+          "confidence": 0.9998899698257446
+        },
+        {
+          "character": "负",
+          "confidence": 0.9999979734420776
+        },
+        {
+          "character": "责",
+          "confidence": 0.9239931106567383
+        },
+        {
+          "character": "一",
+          "confidence": 0.9827361106872559
+        },
+        {
+          "character": "二",
+          "confidence": 0.9591907858848572
+        },
+        {
+          "character": "三",
+          "confidence": 0.9812304973602295
+        },
+        {
+          "character": "级",
+          "confidence": 0.9977648258209229
+        },
+        {
+          "character": "页",
+          "confidence": 0.9988914132118225
+        },
+        {
+          "character": "面",
+          "confidence": 0.999488353729248
+        },
+        {
+          "character": "编",
+          "confidence": 0.9742363095283508
+        },
+        {
+          "character": "码",
+          "confidence": 0.9996957778930664
+        },
+        {
+          "character": "，",
+          "confidence": 0.6320325136184692
+        },
+        {
+          "character": "U",
+          "confidence": 0.2779085636138916
+        },
+        {
+          "character": "1",
+          "confidence": 0.6010890603065491
+        },
+        {
+          "character": "设",
+          "confidence": 0.9993557333946228
+        },
+        {
+          "character": "计",
+          "confidence": 0.9998027682304382
+        },
+        {
+          "character": ",",
+          "confidence": 0.7366333603858948
+        },
+        {
+          "character": "以",
+          "confidence": 0.999882698059082
+        },
+        {
+          "character": "及",
+          "confidence": 0.9999145269393921
+        },
+        {
+          "character": "后",
+          "confidence": 0.9999972581863403
+        },
+        {
+          "character": "续",
+          "confidence": 0.9992511868476868
+        },
+        {
+          "character": "的",
+          "confidence": 0.9998855590820312
+        },
+        {
+          "character": "代",
+          "confidence": 0.9983626008033752
+        },
+        {
+          "character": "码",
+          "confidence": 0.9995618462562561
+        },
+        {
+          "character": "维",
+          "confidence": 0.9955047965049744
+        },
+        {
+          "character": "护",
+          "confidence": 0.9998515844345093
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 34,
+        "word_size": 26
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9785397052764893,
+      "itemstring": ".以校风及理念进行色彩搭配",
+      "itemcoord": {
+        "x": 549,
+        "width": 201,
+        "y": 1670,
+        "height": 25
+      },
+      "coordpoint": {
+        "x": [
+          549,
+          1670,
+          749,
+          1670,
+          749,
+          1694,
+          549,
+          1694
+        ]
+      },
+      "words": [
+        {
+          "character": ".",
+          "confidence": 0.7317984700202942
+        },
+        {
+          "character": "以",
+          "confidence": 0.9999948740005493
+        },
+        {
+          "character": "校",
+          "confidence": 0.9994319081306458
+        },
+        {
+          "character": "风",
+          "confidence": 0.997783362865448
+        },
+        {
+          "character": "及",
+          "confidence": 0.9999659061431885
+        },
+        {
+          "character": "理",
+          "confidence": 0.9999533891677856
+        },
+        {
+          "character": "念",
+          "confidence": 0.9997919201850891
+        },
+        {
+          "character": "进",
+          "confidence": 0.9999991655349731
+        },
+        {
+          "character": "行",
+          "confidence": 0.9999994039535522
+        },
+        {
+          "character": "色",
+          "confidence": 0.9958101511001587
+        },
+        {
+          "character": "彩",
+          "confidence": 0.9998962879180908
+        },
+        {
+          "character": "搭",
+          "confidence": 0.9966223239898682
+        },
+        {
+          "character": "配",
+          "confidence": 0.9999696016311646
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 35,
+        "word_size": 21
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9560407400131226,
+      "itemstring": "-各种页面上的交互动效设计",
+      "itemcoord": {
+        "x": 552,
+        "width": 198,
+        "y": 1697,
+        "height": 29
+      },
+      "coordpoint": {
+        "x": [
+          552,
+          1697,
+          749,
+          1697,
+          749,
+          1725,
+          552,
+          1725
+        ]
+      },
+      "words": [
+        {
+          "character": "-",
+          "confidence": 0.4481881558895111
+        },
+        {
+          "character": "各",
+          "confidence": 0.9927663803100586
+        },
+        {
+          "character": "种",
+          "confidence": 0.999243974685669
+        },
+        {
+          "character": "页",
+          "confidence": 0.992478609085083
+        },
+        {
+          "character": "面",
+          "confidence": 0.999567449092865
+        },
+        {
+          "character": "上",
+          "confidence": 0.9985436201095581
+        },
+        {
+          "character": "的",
+          "confidence": 0.9999071359634399
+        },
+        {
+          "character": "交",
+          "confidence": 0.9998456239700317
+        },
+        {
+          "character": "互",
+          "confidence": 0.999962568283081
+        },
+        {
+          "character": "动",
+          "confidence": 0.9990027546882629
+        },
+        {
+          "character": "效",
+          "confidence": 0.9992218017578125
+        },
+        {
+          "character": "设",
+          "confidence": 0.9998496770858765
+        },
+        {
+          "character": "计",
+          "confidence": 0.9999533891677856
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 36,
+        "word_size": 24
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9952489137649536,
+      "itemstring": "校网球社团社团负责人",
+      "itemcoord": {
+        "x": 548,
+        "width": 171,
+        "y": 1734,
+        "height": 24
+      },
+      "coordpoint": {
+        "x": [
+          548,
+          1734,
+          718,
+          1734,
+          718,
+          1757,
+          548,
+          1757
+        ]
+      },
+      "words": [
+        {
+          "character": "校",
+          "confidence": 0.9998031258583069
+        },
+        {
+          "character": "网",
+          "confidence": 0.9986581802368164
+        },
+        {
+          "character": "球",
+          "confidence": 0.9998396635055542
+        },
+        {
+          "character": "社",
+          "confidence": 0.9877923130989075
+        },
+        {
+          "character": "团",
+          "confidence": 0.9985613226890564
+        },
+        {
+          "character": "社",
+          "confidence": 0.9953702092170715
+        },
+        {
+          "character": "团",
+          "confidence": 0.9987788796424866
+        },
+        {
+          "character": "负",
+          "confidence": 0.9999988079071045
+        },
+        {
+          "character": "责",
+          "confidence": 0.9998373985290527
+        },
+        {
+          "character": "人",
+          "confidence": 0.9738489389419556
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 37,
+        "word_size": 20
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.7818881273269653,
+      "itemstring": "2020.9 - 2021.6 .",
+      "itemcoord": {
+        "x": 1121,
+        "width": 136,
+        "y": 1735,
+        "height": 24
+      },
+      "coordpoint": {
+        "x": [
+          1121,
+          1735,
+          1256,
+          1735,
+          1256,
+          1758,
+          1121,
+          1758
+        ]
+      },
+      "words": [
+        {
+          "character": "2",
+          "confidence": 0.9999550580978394
+        },
+        {
+          "character": "0",
+          "confidence": 0.9996433258056641
+        },
+        {
+          "character": "2",
+          "confidence": 0.9998644590377808
+        },
+        {
+          "character": "0",
+          "confidence": 0.9999508857727051
+        },
+        {
+          "character": ".",
+          "confidence": 0.9996514320373535
+        },
+        {
+          "character": "9",
+          "confidence": 0.9998821020126343
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "-",
+          "confidence": 0.9561095833778381
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "2",
+          "confidence": 0.9998973608016968
+        },
+        {
+          "character": "0",
+          "confidence": 0.9995545744895935
+        },
+        {
+          "character": "2",
+          "confidence": 0.9984622001647949
+        },
+        {
+          "character": "1",
+          "confidence": 0.9990552067756653
+        },
+        {
+          "character": ".",
+          "confidence": 0.9964708089828491
+        },
+        {
+          "character": "6",
+          "confidence": 0.9998451471328735
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": ".",
+          "confidence": 0.3437569737434387
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 52,
+        "word_size": 20
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9707817435264587,
+      "itemstring": "担任社长-职,带领社团获2021年度“六大优秀运动社团"",
+      "itemcoord": {
+        "x": 546,
+        "width": 375,
+        "y": 1757,
+        "height": 24
+      },
+      "coordpoint": {
+        "x": [
+          546,
+          1757,
+          920,
+          1757,
+          920,
+          1780,
+          546,
+          1780
+        ]
+      },
+      "words": [
+        {
+          "character": "担",
+          "confidence": 0.9999345541000366
+        },
+        {
+          "character": "任",
+          "confidence": 0.9999457597732544
+        },
+        {
+          "character": "社",
+          "confidence": 0.9991525411605835
+        },
+        {
+          "character": "长",
+          "confidence": 0.9981021285057068
+        },
+        {
+          "character": "-",
+          "confidence": 0.9482396841049194
+        },
+        {
+          "character": "职",
+          "confidence": 0.9999465942382812
+        },
+        {
+          "character": ",",
+          "confidence": 0.9455106258392334
+        },
+        {
+          "character": "带",
+          "confidence": 0.9986897110939026
+        },
+        {
+          "character": "领",
+          "confidence": 0.9999697208404541
+        },
+        {
+          "character": "社",
+          "confidence": 0.9667797684669495
+        },
+        {
+          "character": "团",
+          "confidence": 0.9992451667785645
+        },
+        {
+          "character": "获",
+          "confidence": 0.9996421337127686
+        },
+        {
+          "character": "2",
+          "confidence": 0.9998718500137329
+        },
+        {
+          "character": "0",
+          "confidence": 0.9992755055427551
+        },
+        {
+          "character": "2",
+          "confidence": 0.9998962879180908
+        },
+        {
+          "character": "1",
+          "confidence": 0.9999675750732422
+        },
+        {
+          "character": "年",
+          "confidence": 0.9999872446060181
+        },
+        {
+          "character": "度",
+          "confidence": 0.9999963045120239
+        },
+        {
+          "character": "“",
+          "confidence": 0.5674757361412048
+        },
+        {
+          "character": "六",
+          "confidence": 0.9985551238059998
+        },
+        {
+          "character": "大",
+          "confidence": 0.9997172951698303
+        },
+        {
+          "character": "优",
+          "confidence": 0.9996193647384644
+        },
+        {
+          "character": "秀",
+          "confidence": 0.9999626874923706
+        },
+        {
+          "character": "运",
+          "confidence": 0.999968409538269
+        },
+        {
+          "character": "动",
+          "confidence": 0.9999655485153198
+        },
+        {
+          "character": "社",
+          "confidence": 0.9930283427238464
+        },
+        {
+          "character": "团",
+          "confidence": 0.9974835515022278
+        },
+        {
+          "character": """,
+          "confidence": 0.7719606757164001
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 38,
+        "word_size": 20
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9247586131095886,
+      "itemstring": "“社团每月的工作总结，例会的召开",
+      "itemcoord": {
+        "x": 550,
+        "width": 233,
+        "y": 1786,
+        "height": 22
+      },
+      "coordpoint": {
+        "x": [
+          550,
+          1786,
+          782,
+          1786,
+          782,
+          1807,
+          550,
+          1807
+        ]
+      },
+      "words": [
+        {
+          "character": "“",
+          "confidence": 0.45453333854675293
+        },
+        {
+          "character": "社",
+          "confidence": 0.9983054399490356
+        },
+        {
+          "character": "团",
+          "confidence": 0.9739103317260742
+        },
+        {
+          "character": "每",
+          "confidence": 0.9931193590164185
+        },
+        {
+          "character": "月",
+          "confidence": 0.9944257736206055
+        },
+        {
+          "character": "的",
+          "confidence": 0.9994394183158875
+        },
+        {
+          "character": "工",
+          "confidence": 0.9996917247772217
+        },
+        {
+          "character": "作",
+          "confidence": 0.9998823404312134
+        },
+        {
+          "character": "总",
+          "confidence": 0.9940270185470581
+        },
+        {
+          "character": "结",
+          "confidence": 0.9739568829536438
+        },
+        {
+          "character": "，",
+          "confidence": 0.6999131441116333
+        },
+        {
+          "character": "例",
+          "confidence": 0.9476016163825989
+        },
+        {
+          "character": "会",
+          "confidence": 0.9962371587753296
+        },
+        {
+          "character": "的",
+          "confidence": 0.9997765421867371
+        },
+        {
+          "character": "召",
+          "confidence": 0.8668840527534485
+        },
+        {
+          "character": "开",
+          "confidence": 0.9044342637062073
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 39,
+        "word_size": 18
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.961056649684906,
+      "itemstring": ".对接上级管理部门,举行各种活动",
+      "itemcoord": {
+        "x": 555,
+        "width": 231,
+        "y": 1820,
+        "height": 24
+      },
+      "coordpoint": {
+        "x": [
+          555,
+          1820,
+          785,
+          1820,
+          785,
+          1843,
+          555,
+          1843
+        ]
+      },
+      "words": [
+        {
+          "character": ".",
+          "confidence": 0.5780137777328491
+        },
+        {
+          "character": "对",
+          "confidence": 0.9999755620956421
+        },
+        {
+          "character": "接",
+          "confidence": 0.9995217323303223
+        },
+        {
+          "character": "上",
+          "confidence": 0.9997243285179138
+        },
+        {
+          "character": "级",
+          "confidence": 0.9999711513519287
+        },
+        {
+          "character": "管",
+          "confidence": 0.9999886751174927
+        },
+        {
+          "character": "理",
+          "confidence": 0.999966025352478
+        },
+        {
+          "character": "部",
+          "confidence": 0.999843955039978
+        },
+        {
+          "character": "门",
+          "confidence": 0.9999270439147949
+        },
+        {
+          "character": ",",
+          "confidence": 0.8020464777946472
+        },
+        {
+          "character": "举",
+          "confidence": 0.9999943971633911
+        },
+        {
+          "character": "行",
+          "confidence": 0.999996542930603
+        },
+        {
+          "character": "各",
+          "confidence": 0.9992886781692505
+        },
+        {
+          "character": "种",
+          "confidence": 0.9986962676048279
+        },
+        {
+          "character": "活",
+          "confidence": 0.9999635219573975
+        },
+        {
+          "character": "动",
+          "confidence": 0.9999873638153076
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 40,
+        "word_size": 20
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.8937603235244751,
+      "itemstring": "个人其他.",
+      "itemcoord": {
+        "x": 549,
+        "width": 129,
+        "y": 1870,
+        "height": 36
+      },
+      "coordpoint": {
+        "x": [
+          549,
+          1870,
+          677,
+          1870,
+          677,
+          1905,
+          549,
+          1905
+        ]
+      },
+      "words": [
+        {
+          "character": "个",
+          "confidence": 0.9999995231628418
+        },
+        {
+          "character": "人",
+          "confidence": 0.9998754262924194
+        },
+        {
+          "character": "其",
+          "confidence": 0.999995231628418
+        },
+        {
+          "character": "他",
+          "confidence": 0.9999914169311523
+        },
+        {
+          "character": ".",
+          "confidence": 0.4689396321773529
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 41,
+        "word_size": 30
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9997091889381409,
+      "itemstring": "互联网上的我",
+      "itemcoord": {
+        "x": 548,
+        "width": 97,
+        "y": 1913,
+        "height": 22
+      },
+      "coordpoint": {
+        "x": [
+          548,
+          1913,
+          644,
+          1913,
+          644,
+          1934,
+          548,
+          1934
+        ]
+      },
+      "words": [
+        {
+          "character": "互",
+          "confidence": 0.998324453830719
+        },
+        {
+          "character": "联",
+          "confidence": 0.9999947547912598
+        },
+        {
+          "character": "网",
+          "confidence": 0.9999709129333496
+        },
+        {
+          "character": "上",
+          "confidence": 0.9999876022338867
+        },
+        {
+          "character": "的",
+          "confidence": 0.9999896287918091
+        },
+        {
+          "character": "我",
+          "confidence": 0.9999881982803345
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 42,
+        "word_size": 18
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.8722084164619446,
+      "itemstring": "2021.3 .2024.6",
+      "itemcoord": {
+        "x": 1120,
+        "width": 136,
+        "y": 1912,
+        "height": 26
+      },
+      "coordpoint": {
+        "x": [
+          1120,
+          1912,
+          1255,
+          1912,
+          1255,
+          1937,
+          1120,
+          1937
+        ]
+      },
+      "words": [
+        {
+          "character": "2",
+          "confidence": 0.9999510049819946
+        },
+        {
+          "character": "0",
+          "confidence": 0.9992753863334656
+        },
+        {
+          "character": "2",
+          "confidence": 0.9987273812294006
+        },
+        {
+          "character": "1",
+          "confidence": 0.9799338579177856
+        },
+        {
+          "character": ".",
+          "confidence": 0.9986805319786072
+        },
+        {
+          "character": "3",
+          "confidence": 0.999622106552124
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": ".",
+          "confidence": 0.482086181640625
+        },
+        {
+          "character": "2",
+          "confidence": 0.7578144669532776
+        },
+        {
+          "character": "0",
+          "confidence": 0.9999021291732788
+        },
+        {
+          "character": "2",
+          "confidence": 0.9960151314735413
+        },
+        {
+          "character": "4",
+          "confidence": 0.9999715089797974
+        },
+        {
+          "character": ".",
+          "confidence": 0.9992026686668396
+        },
+        {
+          "character": "6",
+          "confidence": 0.9997351765632629
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 53,
+        "word_size": 22
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9945588111877441,
+      "itemstring": "站酷网是中国最大的设计交流网站,GitHub有我的主要项目",
+      "itemcoord": {
+        "x": 546,
+        "width": 388,
+        "y": 1938,
+        "height": 21
+      },
+      "coordpoint": {
+        "x": [
+          546,
+          1938,
+          933,
+          1938,
+          933,
+          1958,
+          546,
+          1958
+        ]
+      },
+      "words": [
+        {
+          "character": "站",
+          "confidence": 0.9996553659439087
+        },
+        {
+          "character": "酷",
+          "confidence": 0.9858171343803406
+        },
+        {
+          "character": "网",
+          "confidence": 0.9979122281074524
+        },
+        {
+          "character": "是",
+          "confidence": 0.9999898672103882
+        },
+        {
+          "character": "中",
+          "confidence": 0.9996317625045776
+        },
+        {
+          "character": "国",
+          "confidence": 0.999893069267273
+        },
+        {
+          "character": "最",
+          "confidence": 0.9999986886978149
+        },
+        {
+          "character": "大",
+          "confidence": 0.9999058246612549
+        },
+        {
+          "character": "的",
+          "confidence": 0.999913215637207
+        },
+        {
+          "character": "设",
+          "confidence": 0.9997327923774719
+        },
+        {
+          "character": "计",
+          "confidence": 0.9998685121536255
+        },
+        {
+          "character": "交",
+          "confidence": 0.9988779425621033
+        },
+        {
+          "character": "流",
+          "confidence": 0.9999964237213135
+        },
+        {
+          "character": "网",
+          "confidence": 0.9990904331207275
+        },
+        {
+          "character": "站",
+          "confidence": 0.9999970197677612
+        },
+        {
+          "character": ",",
+          "confidence": 0.9550459384918213
+        },
+        {
+          "character": "G",
+          "confidence": 0.9369744062423706
+        },
+        {
+          "character": "i",
+          "confidence": 0.980440616607666
+        },
+        {
+          "character": "t",
+          "confidence": 0.9990993738174438
+        },
+        {
+          "character": "H",
+          "confidence": 0.9992662072181702
+        },
+        {
+          "character": "u",
+          "confidence": 0.9989908337593079
+        },
+        {
+          "character": "b",
+          "confidence": 0.9998311996459961
+        },
+        {
+          "character": "有",
+          "confidence": 0.9925413131713867
+        },
+        {
+          "character": "我",
+          "confidence": 0.9999951124191284
+        },
+        {
+          "character": "的",
+          "confidence": 0.9999758005142212
+        },
+        {
+          "character": "主",
+          "confidence": 0.9999783039093018
+        },
+        {
+          "character": "要",
+          "confidence": 0.9998099207878113
+        },
+        {
+          "character": "项",
+          "confidence": 0.9999858140945435
+        },
+        {
+          "character": "目",
+          "confidence": 0.9999932050704956
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 43,
+        "word_size": 17
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.8717705607414246,
+      "itemstring": "一个人站: s https://nano71.com",
+      "itemcoord": {
+        "x": 552,
+        "width": 230,
+        "y": 1965,
+        "height": 20
+      },
+      "coordpoint": {
+        "x": [
+          552,
+          1965,
+          781,
+          1965,
+          781,
+          1984,
+          552,
+          1984
+        ]
+      },
+      "words": [
+        {
+          "character": "一",
+          "confidence": 0.9800032377243042
+        },
+        {
+          "character": "个",
+          "confidence": 0.9999943971633911
+        },
+        {
+          "character": "人",
+          "confidence": 0.9980019927024841
+        },
+        {
+          "character": "站",
+          "confidence": 0.9991506338119507
+        },
+        {
+          "character": ":",
+          "confidence": 0.9875824451446533
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "s",
+          "confidence": 0.31323444843292236
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "h",
+          "confidence": 0.9999669790267944
+        },
+        {
+          "character": "t",
+          "confidence": 0.9993537068367004
+        },
+        {
+          "character": "t",
+          "confidence": 0.9957565665245056
+        },
+        {
+          "character": "p",
+          "confidence": 0.9614201188087463
+        },
+        {
+          "character": "s",
+          "confidence": 0.7934158444404602
+        },
+        {
+          "character": ":",
+          "confidence": 0.9979918003082275
+        },
+        {
+          "character": "/",
+          "confidence": 0.9844207167625427
+        },
+        {
+          "character": "/",
+          "confidence": 0.8147005438804626
+        },
+        {
+          "character": "n",
+          "confidence": 0.9566687345504761
+        },
+        {
+          "character": "a",
+          "confidence": 0.9996939897537231
+        },
+        {
+          "character": "n",
+          "confidence": 0.9998570680618286
+        },
+        {
+          "character": "o",
+          "confidence": 0.9351859092712402
+        },
+        {
+          "character": "7",
+          "confidence": 0.9979350566864014
+        },
+        {
+          "character": "1",
+          "confidence": 0.9529631733894348
+        },
+        {
+          "character": ".",
+          "confidence": 0.9993818998336792
+        },
+        {
+          "character": "c",
+          "confidence": 0.9999098777770996
+        },
+        {
+          "character": "o",
+          "confidence": 0.9995610117912292
+        },
+        {
+          "character": "m",
+          "confidence": 0.9998856782913208
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 44,
+        "word_size": 17
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.8939480781555176,
+      "itemstring": "-站酷网: 0 htts://nano71.zcool.com.cn",
+      "itemcoord": {
+        "x": 552,
+        "width": 300,
+        "y": 1984,
+        "height": 21
+      },
+      "coordpoint": {
+        "x": [
+          552,
+          1984,
+          851,
+          1984,
+          851,
+          2004,
+          552,
+          2004
+        ]
+      },
+      "words": [
+        {
+          "character": "-",
+          "confidence": 0.5591729283332825
+        },
+        {
+          "character": "站",
+          "confidence": 0.9995602965354919
+        },
+        {
+          "character": "酷",
+          "confidence": 0.7073040008544922
+        },
+        {
+          "character": "网",
+          "confidence": 0.999794065952301
+        },
+        {
+          "character": ":",
+          "confidence": 0.9790249466896057
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "0",
+          "confidence": 0.32074031233787537
+        },
+        {
+          "character": "",
+          "confidence": 1.0
+        },
+        {
+          "character": "h",
+          "confidence": 0.9994850158691406
+        },
+        {
+          "character": "t",
+          "confidence": 0.9985539317131042
+        },
+        {
+          "character": "t",
+          "confidence": 0.9888306260108948
+        },
+        {
+          "character": "s",
+          "confidence": 0.9763845801353455
+        },
+        {
+          "character": ":",
+          "confidence": 0.9980922341346741
+        },
+        {
+          "character": "/",
+          "confidence": 0.9977580904960632
+        },
+        {
+          "character": "/",
+          "confidence": 0.9950718283653259
+        },
+        {
+          "character": "n",
+          "confidence": 0.9972648620605469
+        },
+        {
+          "character": "a",
+          "confidence": 0.9996688365936279
+        },
+        {
+          "character": "n",
+          "confidence": 0.999803364276886
+        },
+        {
+          "character": "o",
+          "confidence": 0.9688049554824829
+        },
+        {
+          "character": "7",
+          "confidence": 0.9990517497062683
+        },
+        {
+          "character": "1",
+          "confidence": 0.9921751618385315
+        },
+        {
+          "character": ".",
+          "confidence": 0.9980549812316895
+        },
+        {
+          "character": "z",
+          "confidence": 0.9420796632766724
+        },
+        {
+          "character": "c",
+          "confidence": 0.9993359446525574
+        },
+        {
+          "character": "o",
+          "confidence": 0.9956596493721008
+        },
+        {
+          "character": "o",
+          "confidence": 0.9991695880889893
+        },
+        {
+          "character": "l",
+          "confidence": 0.9964984655380249
+        },
+        {
+          "character": ".",
+          "confidence": 0.9995226860046387
+        },
+        {
+          "character": "c",
+          "confidence": 0.9999740123748779
+        },
+        {
+          "character": "o",
+          "confidence": 0.9993032217025757
+        },
+        {
+          "character": "m",
+          "confidence": 0.9895766973495483
+        },
+        {
+          "character": ".",
+          "confidence": 0.9996844530105591
+        },
+        {
+          "character": "c",
+          "confidence": 0.9994094371795654
+        },
+        {
+          "character": "n",
+          "confidence": 0.9994219541549683
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 45,
+        "word_size": 17
+      }
+    },
+    {
+      "candword": [],
+      "itemconf": 0.9049327373504639,
+      "itemstring": "项目库:心hts:/GitHub.com/nan071",
+      "itemcoord": {
+        "x": 562,
+        "width": 282,
+        "y": 2006,
+        "height": 23
+      },
+      "coordpoint": {
+        "x": [
+          562,
+          2006,
+          843,
+          2006,
+          843,
+          2028,
+          562,
+          2028
+        ]
+      },
+      "words": [
+        {
+          "character": "项",
+          "confidence": 0.9999872446060181
+        },
+        {
+          "character": "目",
+          "confidence": 0.9998199343681335
+        },
+        {
+          "character": "库",
+          "confidence": 0.9999097585678101
+        },
+        {
+          "character": ":",
+          "confidence": 0.9705575108528137
+        },
+        {
+          "character": "心",
+          "confidence": 0.37144017219543457
+        },
+        {
+          "character": "h",
+          "confidence": 0.9725702404975891
+        },
+        {
+          "character": "t",
+          "confidence": 0.9089394807815552
+        },
+        {
+          "character": "s",
+          "confidence": 0.43848246335983276
+        },
+        {
+          "character": ":",
+          "confidence": 0.8710132837295532
+        },
+        {
+          "character": "/",
+          "confidence": 0.8841174244880676
+        },
+        {
+          "character": "G",
+          "confidence": 0.9101243615150452
+        },
+        {
+          "character": "i",
+          "confidence": 0.6889869570732117
+        },
+        {
+          "character": "t",
+          "confidence": 0.9613890647888184
+        },
+        {
+          "character": "H",
+          "confidence": 0.8787102103233337
+        },
+        {
+          "character": "u",
+          "confidence": 0.9975225329399109
+        },
+        {
+          "character": "b",
+          "confidence": 0.9997696280479431
+        },
+        {
+          "character": ".",
+          "confidence": 0.9985916018486023
+        },
+        {
+          "character": "c",
+          "confidence": 0.9999532699584961
+        },
+        {
+          "character": "o",
+          "confidence": 0.999697208404541
+        },
+        {
+          "character": "m",
+          "confidence": 0.9999628067016602
+        },
+        {
+          "character": "/",
+          "confidence": 0.999742329120636
+        },
+        {
+          "character": "n",
+          "confidence": 0.993083119392395
+        },
+        {
+          "character": "a",
+          "confidence": 0.997984766960144
+        },
+        {
+          "character": "n",
+          "confidence": 0.9978346228599548
+        },
+        {
+          "character": "0",
+          "confidence": 0.6757912039756775
+        },
+        {
+          "character": "7",
+          "confidence": 0.9974785447120667
+        },
+        {
+          "character": "1",
+          "confidence": 0.9197246432304382
+        }
+      ],
+      "wordcoordpoint": [],
+      "coords": [],
+      "parag": {
+        "parag_no": 46,
+        "word_size": 19
+      }
+    }
+  ],
+  "class": [],
+  "recognize_warn_msg": [],
+  "errorcode": 0,
+  "errormsg": "OK",
+  "recognize_warn_code": []
+}
