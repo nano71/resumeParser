@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/analyze/analyze.iml" filepath="$PROJECT_DIR$/analyze/analyze.iml" />
       <module fileurl="file://$PROJECT_DIR$/resumeAnalysis.iml" filepath="$PROJECT_DIR$/resumeAnalysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/service.iml" filepath="$PROJECT_DIR$/service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web.iml" filepath="$PROJECT_DIR$/web.iml" />
     </modules>
   </component>
 </project>
