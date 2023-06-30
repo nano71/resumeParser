@@ -17,72 +17,157 @@
         </div>
       </div>
       <div class="navBar">
-        <div class="navItem select">简历详情</div>
-        <div class="navItem">分析数据</div>
+        <div :class="{navItem:1, select:i===isDetailInfo}" v-for="(item,i) in ['简历详情','分析数据']"
+             @click="isDetailInfo=i">
+          {{ item }}
+        </div>
       </div>
     </div>
-    <div class="contentBox">
-      <div class="title">
-        <sapn>基本信息</sapn>
-        <div class="titleMask"></div>
-      </div>
-      <div class="messageDetails">
-        <div class="messageItem" v-for="item in 6" :key="item">
-          <div class="doll"></div>
-          <div class="items">
+    <!--    第一页-->
+    <div class="basicInform" v-if="!isDetailInfo">
+      <div class="contentBox">
+        <div class="title">
+          <span>基本信息</span>
+          <div class="titleMask"></div>
+        </div>
+        <div class="messageDetails">
+          <div class="messageItem" v-for="item in 6" :key="item">
+            <div class="doll"></div>
+            <div class="items">
             <span class="garyText">
               姓名 :
             </span>
-            <span>唐斌</span>
+              <span>唐斌</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contentBox">
+        <div class="title">
+          <span>教育背景</span>
+          <div class="titleMask"></div>
+        </div>
+        <div class="educationDetail">
+          <div class="schoolName">
+            <span class="name">桂林理工大学</span>
+            <span class="time garyText">2019.09 - 至今</span>
+          </div>
+          <div class="educationItem">
+            <div class="items" v-for="item in 6" :key="item">
+              <span class="garyText">开始时间 : </span>
+              <span>2019.09</span>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="contentBox">
-      <div class="title">
-        <sapn>教育背景</sapn>
-        <div class="titleMask"></div>
-      </div>
-      <div class="educationDetail">
-        <div class="schoolName">
-          <span class="name">桂林理工大学</span>
-          <span class="time garyText">2019.09 - 至今</span>
+    <!--  第二页-->
+    <div class="resultPage" v-else>
+      <div class="brightPoit">
+        <div class="title">
+          <span>简历亮点</span>
+          <div class="titleMask"></div>
         </div>
-        <div class="educationItem">
-          <div class="items" v-for="item in 6">
-            <span class="garyText">开始时间 : </span>
-            <span>2019.09</span>
+        <div class="highlightBox">
+          <div class="highlightItem" v-for="item in 2" :key="item">
+            <div class="itemTile">
+              <div class="itemIcon">
+                <img src="../assets/thumb_up.png" alt="">
+              </div>
+              <div class="itemTitleText">简历亮点 x 1</div>
+            </div>
+            <div class="itemText">
+              <span>有丰富的前端开发经验，对vue、react、css、webpack、jquery、ajax、JavaScript、前端开发、node.js、bootstrap等技能或工具有深入的理解</span>
+            </div>
           </div>
         </div>
       </div>
-
+      <div class="personTag">
+        <div class="tagContainer">
+          <div class="title">
+            <span>候选人标签</span>
+            <div class="titleMask"></div>
+          </div>
+          <div class="tagListBox">
+            <div class="tagList" v-for="item in 6" :key="item">
+              <div class="tagTitle">基本标签</div>
+              <div class="tagListItem">
+                <div class="tagItem" v-for="(item,index) in 20" :key="index">22岁</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="echartsBox">
+        <div class="echartsItem"></div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "resumeDetail"
+  name: "resumeDetail",
+  data() {
+    return {
+      isDetailInfo: 1
+    }
+  }
 }
 </script>
 
 <style lang="less" scoped>
 #resumeDetail {
+  margin-top: 80px;
   width: 800px;
   min-height: 99vh;
   border: 4px solid #000000;
   display: flex;
   flex-direction: column;
   row-gap: 40px;
-  padding: 0 20px;
+  text-align: left;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .title {
+    span {
+      font-size: 22px;
+      position: relative;
+      text-align: left;
+      width: auto;
+      display: inline-block;
+
+      &::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 20px;
+        background-color: #00000020;
+        position: absolute;
+        bottom: -5px;
+        left: 20px;
+      }
+    }
+  }
+
+  .basicInform {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    padding: 0 40px;
+  }
+
+  .garyText {
+    color: #00000080;
+  }
 }
 
-.garyText {
-  color: #00000080;
-}
 
 .topBox {
-  padding: 20px 20px 0 20px;
+  padding: 40px 40px 0;
   border-bottom: 1px solid #00000040;
 
   .personDetail {
@@ -178,20 +263,6 @@ export default {
 
 .contentBox {
 
-  .title {
-    font-size: 22px;
-    position: relative;
-    text-align: left;
-
-    .titleMask {
-      width: 90px;
-      height: 20px;
-      background-color: #00000020;
-      position: absolute;
-      bottom: -5px;
-      left: 20px;
-    }
-  }
 
   .messageDetails {
     box-sizing: border-box;
@@ -225,24 +296,105 @@ export default {
     text-align: left;
 
     .schoolName {
-
       margin-bottom: 20px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      .name{
+
+      .name {
         font-weight: bold;
       }
-      .time{
+
+      .time {
         font-size: 14px;
       }
     }
-  .educationItem{
-    display: flex;
-    flex-direction: column;
-    row-gap: 15px;
-  }
+
+    .educationItem {
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+    }
   }
 }
 
+.resultPage {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  padding: 0 40px;
+
+  .highlightBox {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 40px 5px 0;
+    text-align: left;
+
+    .highlightItem {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+
+      .itemTile {
+        display: flex;
+        column-gap: 10px;
+        //justify-content: center;
+        align-items: center;
+
+        .itemIcon {
+          width: 14px;
+          height: 14px;
+
+          img {
+            position: relative;
+            top: -3px;
+          }
+        }
+
+      }
+
+      .itemText {
+        font-size: 14px;
+        color: #00000080;
+      }
+
+    }
+  }
+
+  .personTag {
+    .tagContainer {
+      .tagListBox {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+
+        .tagList {
+          display: flex;
+          flex-direction: column;
+          row-gap: 15px;
+
+          .tagListItem {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+
+            .tagItem {
+              padding: 4px 10px;
+              background-color: #00000080;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .echartsBox {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+}
 </style>
