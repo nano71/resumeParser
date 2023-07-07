@@ -55,16 +55,23 @@ class Extract:
     base_info: dict = {}
     origin: str = ""
     text: str = ""
+    s_text: str = ""
     lac_result: list[list[str]] = []
     lac_result_process: dict[str, list] = {}
     preselected: list[str] = []
+    title_mark_point: list[int] = []
+    title_mark_point_text: list[str] = []
 
     def __init__(self, text: str):
         self.origin = text
         self.text = text
+        self.s_text = text.replace(" ", "")
         self.pretreatment()
+        # 转载模型
         lac = LAC(model_path="../model/lac_model")
-        lac.load_customization("../dict/interventionDictionary.text")
+        # 转载补充特征字典
+        lac.load_customization("../dict/interventionDictionary.txt")
+        # 模型运行
         self.lac_result = lac.run(self.text)
         self.remove_unnecessary()
         self.classify()
@@ -104,14 +111,43 @@ class Extract:
 
     def work_years(self):
         time_periods = self.lac_result_process["TIME"]
+        jobs = get_jobs()
+        preprocessed_list: list[str] = []
 
-        for i, period in enumerate(time_periods):
-            index: int = self.text.index(period)
+        def preprocessed():
+            start_index = 0
+            for i, time in enumerate(time_periods):
+                index: int = self.text.find(time, start_index)
+                if index != -1:
+                    preprocessed_list.append(self.text[start_index:index])
+                    start_index = index + len(time)
+            preprocessed_list.append(self.text[start_index:])
+
+        preprocessed()
+        new_line()
+        print(preprocessed_list)
+        new_line()
+        # 有关工作经历标题出现的所有地方
+        title_index_list = find_occurrences(self.text, r"工作经[历验]")
+        # 有关教育经历标题出现的所有地方
+        end_index = find_occurrences(self.text, r"教育[(背景)(经历)]")
+
+        for i, time in enumerate(time_periods):
+            # 日期出现的位置
+            index: int = self.text.index(time)
+            # 有关工作经历标题出现的所有地方
             title_index_list = find_occurrences(self.text, r"工作经[历验]")
+            # 有关教育经历标题出现的所有地方
             end_index = find_occurrences(self.text, r"教育[(背景)(经历)]")
-
-            print(period, index, title_index_list[0], end_index[0])
+            new_line()
+            print("工作相关")
+            print(time, index, title_index_list[0], end_index[0])
             print(self.text[title_index_list[0]:end_index[0]])
+            new_line()
+            print("教育相关")
+            print(self.text[title_index_list[-1]:end_index[0]])
+            new_line()
+            break
 
         print("time_periods: ", time_periods)
         time_periods = list(filter(lambda x: len(x) > 3, time_periods))
@@ -145,6 +181,7 @@ class Extract:
 
         return math.ceil(total_months / 12)
 
+    # 删除不必要的分词结果数组
     def remove_unnecessary(self):
         cache = [[], []]
         result = self.lac_result
@@ -154,6 +191,7 @@ class Extract:
                 cache[0].append(result[0][i])
         self.lac_result = cache
 
+    # 分词数组结果字典化
     def classify(self):
         for i, label in enumerate(self.lac_result[1]):
             if label not in self.lac_result_process:
@@ -233,8 +271,17 @@ class Extract:
                     return name
         return ""
 
+    def read_mark_point_text(self, index: int):
+        return self.s_text[index + 1:index + 5]
+        pass
+
     def pretreatment(self):
+        print("pretreatment")
         text = self.text
+        s_text = self.s_text
+        self.title_mark_point = find_occurrences(s_text, r"\s[\u4e00-\u9fa5]{4}\w?\n")
+        self.title_mark_point_text = list(map(lambda x: self.read_mark_point_text(x), self.title_mark_point))
+        print(self.title_mark_point_text)
         text = re.sub(r'([\w.]) +([.\w])', r"\1\2", text).replace(" ", "\n")
         text = re.sub(r'[\t\s]+', ",", text)
         text = re.sub(r"(\d{4})\.(\d\D)", r"\1.0\2", text)
@@ -310,3 +357,19 @@ def zero_fill(date_range: str) -> str:
 def find_occurrences(text: str, pattern) -> list[int]:
     occurrences = [match.start() for match in re.finditer(pattern, text)]
     return occurrences
+
+
+def get_jobs() -> list[str]:
+    jobs = []
+    with open('../dict/jobs.txt', 'r', encoding='utf-8') as f:
+        for line in f.readlines():
+            line = line.strip('\n')  # 去除文本中的换行符
+            if len(line):
+                jobs.append(line)
+    return jobs
+
+
+def new_line():
+    print("\n")
+    print("--------------------")
+    print("\n")

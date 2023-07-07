@@ -20,7 +20,7 @@ while current_date <= end_date:
     dates.append(current_date)
     current_date += relativedelta(months=1)
 
-with open("../dict/time.text", "w", encoding="UTF-8") as file:
+with open("../dict/time.txt", "w", encoding="UTF-8") as file:
     for i, date in enumerate(dates):
         for date2 in dates[i + 1:]:
             file.write(date.strftime('%Y.%m') + "-" + date2.strftime('%Y.%m') + "/TIME" + "\n")
