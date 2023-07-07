@@ -9,7 +9,7 @@
 
 import common
 
-text = common.read_doc("../test_data/3.docx")
+text = common.read_doc("../test_data/5.docx")
 result = common.Extract(text).initialize()
 print(result)
 

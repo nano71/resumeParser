@@ -48,21 +48,20 @@ class OCR:
 
 
 class Extract:
-    category: list[str] = ["校园经历", ""]
-    need_label: list[str] = ["m", "PER", "LOC", "ORG", "TIME", "nz", "EB"]
-    need_education: list[str] = ['小学', '初中', '高中', '中专', '大专', '本科', '硕士', '博士']
-    school_characteristic_pattern = r"[\u4e00-\u9fa5]+(大学|学院|中学|小学|实验学校|高中|初中|小学|幼儿园)"
-    base_info: dict = {}
-    origin: str = ""
-    text: str = ""
-    s_text: str = ""
-    lac_result: list[list[str]] = []
-    lac_result_process: dict[str, list] = {}
-    preselected: list[str] = []
-    title_mark_point: list[int] = []
-    title_mark_point_text: list[str] = []
-
     def __init__(self, text: str):
+        self.category: list[str] = ["校园经历", ""]
+        self.need_label: list[str] = ["m", "PER", "LOC", "ORG", "TIME", "nz", "EB"]
+        self.need_education: list[str] = ['小学', '初中', '高中', '中专', '大专', '本科', '硕士', '博士']
+        self.school_characteristic_pattern = r"[\u4e00-\u9fa5]+(大学|学院|中学|小学|实验学校|高中|初中|小学|幼儿园)"
+        self.base_info: dict = {}
+        self.origin: str = ""
+        self.lac_result: list[list[str]] = []
+        self.lac_result_process: dict[str, list] = {}
+        self.preselected: list[str] = []
+        self.title_mark_point: list[int] = []
+        self.title_mark_point_text: list[str] = []
+        self.work_text: str = ""
+        self.work_info: list[dict] = []
         self.origin = text
         self.text = text
         self.s_text = text.replace(" ", "")
@@ -98,8 +97,10 @@ class Extract:
             "phone": self.phone(),
             "highest_education": self.highest_education(),
             "school": self.school(),
-            "work_years": self.work_years()
+            "work_years": self.work_years(),
+            "work_info": self.work_info,
         }
+
         self.base_info = cache
 
         return self.base_info
@@ -110,56 +111,84 @@ class Extract:
         return "无"
 
     def work_years(self):
+        print("work_years")
         time_periods = self.lac_result_process["TIME"]
-        jobs = get_jobs()
-        preprocessed_list: list[str] = []
-
-        def preprocessed():
-            start_index = 0
-            for i, time in enumerate(time_periods):
-                index: int = self.text.find(time, start_index)
-                if index != -1:
-                    preprocessed_list.append(self.text[start_index:index])
-                    start_index = index + len(time)
-            preprocessed_list.append(self.text[start_index:])
-
-        preprocessed()
+        preprocessed_list: list[str] = split(self.text, self.title_mark_point_text)
         new_line()
+        print(self.title_mark_point_text)
+        if self.text.index(preprocessed_list[0]) < self.text.index(self.title_mark_point_text[0]):
+            preprocessed_list.pop(0)
         print(preprocessed_list)
         new_line()
-        # 有关工作经历标题出现的所有地方
-        title_index_list = find_occurrences(self.text, r"工作经[历验]")
-        # 有关教育经历标题出现的所有地方
-        end_index = find_occurrences(self.text, r"教育[(背景)(经历)]")
+        for i, text in enumerate(preprocessed_list):
+            if str_exist(self.title_mark_point_text[i], r"工作经[历验]"):
+                self.work_text = text.replace("（", "(").replace("）", ")")
+            else:
+                print(text)
+                for j, time in enumerate(time_periods):
+                    if time in text:
+                        time_periods.pop(j)
+        # # 有关工作经历标题出现的所有地方
+        # title_index_list = find_occurrences(self.text, r"工作经[历验]")
+        # # 有关教育经历标题出现的所有地方
+        # end_index = find_occurrences(self.text, )
+        #
+        # for i, time in enumerate(time_periods):
+        #     # 日期出现的位置
+        #     index: int = self.text.index(time)
+        #     new_line()
+        #     print("工作相关")
+        #     print(time, index, title_index_list[0], end_index[0])
+        #     print(self.text[title_index_list[0]:end_index[0]])
+        #     new_line()
+        #     print("教育相关")
+        #     print(self.text[title_index_list[-1]:end_index[0]])
+        #     new_line()
+        #     break
 
-        for i, time in enumerate(time_periods):
-            # 日期出现的位置
-            index: int = self.text.index(time)
-            # 有关工作经历标题出现的所有地方
-            title_index_list = find_occurrences(self.text, r"工作经[历验]")
-            # 有关教育经历标题出现的所有地方
-            end_index = find_occurrences(self.text, r"教育[(背景)(经历)]")
-            new_line()
-            print("工作相关")
-            print(time, index, title_index_list[0], end_index[0])
-            print(self.text[title_index_list[0]:end_index[0]])
-            new_line()
-            print("教育相关")
-            print(self.text[title_index_list[-1]:end_index[0]])
-            new_line()
-            break
-
+        time_periods = list(filter(lambda x: len(x) > 3 and x in self.text, unique_list(time_periods)))
         print("time_periods: ", time_periods)
-        time_periods = list(filter(lambda x: len(x) > 3, time_periods))
+        new_line()
+        print("work_info")
+        companies = self.lac_result_process["ORG"]
+        jobs: list[str] = unique_list(get_jobs())
+        print(jobs)
+        work_list = list(filter(lambda x: len(x) > 10, split(self.work_text, time_periods)))
+        print(work_list)
+        work_info_list: list[dict] = []
+        for i, item in enumerate(work_list):
+            base_info: dict = {}
+            practice: bool = False
+            for company in companies:
+                if company in item:
+                    base_info["company"] = company
+                    item = item.replace(company, "")
+                    break
+            for job in jobs:
+                if job in item:
+                    base_info["job"] = job
+                    item = item.replace(job, "")
+                    if "实习" in job:
+                        time_periods.pop(i)
+                        practice = True
+                    break
+            if not practice:
+                for time in time_periods:
+                    if time in item:
+                        base_info["time"] = time
+                        break
+            base_info["info"] = re.sub(r",(.),", r"\1", item)
+            base_info["info"] = re.sub(r"^,|,$", "", base_info["info"])
+            work_info_list.append(base_info)
+        self.work_info = work_info_list
 
         def sort_by_prefix(string):
             return int(string[:4])
 
-        time_periods = sorted(unique_list(time_periods), key=sort_by_prefix)
+        time_periods = sorted(time_periods, key=sort_by_prefix)
         print(time_periods)
         total_months = 0
         for i, period in enumerate(time_periods):
-
             if "-" not in period:
                 break
             if re.search(r"\d{4}-\d{4}", period):
@@ -229,7 +258,7 @@ class Extract:
                 age -= 1
 
             if age >= 18:
-                self.text.replace(birthday, "")
+                self.text = self.text.replace(birthday, "")
                 return age
 
     def phone(self) -> str:
@@ -373,3 +402,29 @@ def new_line():
     print("\n")
     print("--------------------")
     print("\n")
+
+
+def split(text: str, mark_list: list[str]) -> list[str]:
+    split_list: list[str] = []
+    start_index = 0
+    for i, item in enumerate(mark_list):
+        index: int = text.find(item, start_index)
+        if index != -1:
+            split_list.append(text[start_index:index])
+            start_index = index + len(item)
+    split_list.append(text[start_index:])
+    return split_list
+
+
+def str_exist(text: str, re_exp: str) -> bool:
+    res = re.search(re_exp, text)
+    if res:
+        return True
+    return False
+
+
+def cn_exist(text) -> bool:
+    res = re.search(r"[\u4e00-\u9fa5]", text)
+    if res:
+        return True
+    return False
