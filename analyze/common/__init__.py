@@ -13,6 +13,7 @@ import os
 import re
 from datetime import datetime, date
 
+import pdfplumber
 from LAC import LAC
 from dateutil.relativedelta import relativedelta
 from pypdf import PdfReader
@@ -354,8 +355,24 @@ def read_doc(path: str) -> str:
     convert(path, output_file)
     reader = PdfReader(output_file)
     text = ""
-    for page in reader.pages:
-        text += page.extract_text()
+    weight_list = []
+    with pdfplumber.open(output_file) as pdf:
+        # 遍历每个页面
+        for page in pdf.pages:
+            # 提取页面文本和文本位置信息
+            for obj in page.extract_words():
+                text += obj["text"] + "\n"
+                x0, top, x1, bottom = obj["x0"], obj["top"], obj["x1"], obj["bottom"]
+                width = x1 - x0
+                height = bottom - top
+                print("Text: ", obj["text"])
+                print("Position: x0=", x0)
+                if width > 20:
+                    weight_list.append(x0)
+                print("Size: width=", width, "height=", height)
+    # for page in reader.pages:
+    #     text += page.extract_text()
+    print(is_left_right_layout(weight_list))
     os.remove(output_file)
     return text
 
@@ -426,5 +443,20 @@ def str_exist(text: str, re_exp: str) -> bool:
 def cn_exist(text) -> bool:
     res = re.search(r"[\u4e00-\u9fa5]", text)
     if res:
+        return True
+    return False
+
+
+def is_left_right_layout(arr):
+    length = len(arr)
+    count = 0
+
+    # 遍历数组，计算大于100的数的数量
+    for num in arr:
+        if num > 100:
+            count += 1
+
+    # 判断大于100的数的数量是否超过数组长度的一半
+    if count > length / 2:
         return True
     return False
