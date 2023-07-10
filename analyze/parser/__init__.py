@@ -5,17 +5,16 @@
 # @Email : 1742968988@qq.com
 # @File : __init__.py.py
 # @Software: IntelliJ IDEA
-
 import base64
+import json
 import math
 import re
+import tkinter as tk
 from datetime import datetime, date
-
-from LAC import LAC
 from dateutil.relativedelta import relativedelta
+from LAC import LAC
 
-from common import new_line, str_exist, unique_list, get_jobs, zero_fill, contains_float_or_date, comma_reduction, \
-    find_occurrences, split_by_list
+import common
 from ocr_ecloud import CMSSEcloudOcrClient
 
 accesskey = '613e43c93bf34345acd1786a49efbc6c'
@@ -44,6 +43,52 @@ class OCR:
             ocr_client = CMSSEcloudOcrClient(accesskey, secretkey, url)
             response = ocr_client.request_ocr_service_base64(requestpath=requesturl, base64=image_base64)
             return response.text
+
+    def test(self):
+        image_path = "../test.jpeg"
+        result = json.loads(self.file(path=image_path))
+        imagesize = common.img_size(image_path)
+        window = tk.Tk()
+        scrollbar = tk.Scrollbar(window)
+        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+        # 创建画布并关联滚动条
+        canvas = tk.Canvas(window, yscrollcommand=scrollbar.set, width=imagesize[0], height=800)
+
+        def on_mouse_scroll(event):
+            # 根据滚轮的方向，向上滚动为 -1，向下滚动为 1
+            direction = -1 if event.delta > 0 else 1
+            canvas.yview_scroll(direction, 'units')
+
+        canvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+
+        # 配置滚动条和画布的关联
+        scrollbar.config(command=canvas.yview)
+
+        # 创建内部框架并在画布上放置
+        frame = tk.Frame(canvas)
+        canvas.create_window(0, 0, anchor=tk.NW, window=frame)
+        i = 0
+
+        common.dict2json("../cache/ocr_result.json", result)
+        rows = []
+        positions = []
+        if "body" in result:
+            rows = list(map(lambda x: x["word"], result["body"]["content"]["prism_wordsInfo"]))
+            positions = list(map(lambda x: x["position"], result["body"]["content"]["prism_wordsInfo"]))
+        elif "items" in result:
+            rows = list(map(lambda x: x["itemstring"], result["items"]))
+        print(rows)
+        print(Extract(','.join(rows)).initialize())
+        common.dict2json("../cache/ocr_positions.json", positions)
+        for position in positions:
+            points = [(point["x"], point["y"]) for point in position]
+            canvas.create_polygon(points, outline='black', fill='')
+            i += 1
+
+        # 绑定鼠标滚轮事件
+        canvas.bind('<MouseWheel>', on_mouse_scroll)
+        canvas.config(scrollregion=canvas.bbox(tk.ALL))
+        window.mainloop()
 
 
 class Extract:
@@ -112,15 +157,15 @@ class Extract:
     def work_years(self):
         print("work_years")
         time_periods = self.lac_result_process["TIME"]
-        preprocessed_list: list[str] = split_by_list(self.text, self.title_mark_point_text)
-        new_line()
+        preprocessed_list: list[str] = common.split_by_list(self.text, self.title_mark_point_text)
+        common.new_line()
         # print(self.title_mark_point_text)
         if self.text.index(preprocessed_list[0]) < self.text.index(self.title_mark_point_text[0]):
             preprocessed_list.pop(0)
         # print(preprocessed_list)
-        new_line()
+        common.new_line()
         for i, text in enumerate(preprocessed_list):
-            if str_exist(self.title_mark_point_text[i], r"工作经[历验]"):
+            if common.str_exist(self.title_mark_point_text[i], r"工作经[历验]"):
                 self.work_text = text.replace("（", "(").replace("）", ")")
             else:
                 # print(text)
@@ -145,16 +190,16 @@ class Extract:
         #     new_line()
         #     break
 
-        time_periods = list(filter(lambda x: len(x) > 3 and x in self.text, unique_list(time_periods)))
+        time_periods = list(filter(lambda x: len(x) > 3 and x in self.text, common.unique_list(time_periods)))
         print("time_periods: ", time_periods)
-        new_line()
+        common.new_line()
         print("work_info")
         companies = self.lac_result_process["ORG"]
-        jobs: list[str] = unique_list(get_jobs())
+        jobs: list[str] = common.unique_list(common.get_jobs())
         # print(jobs)
-        work_list = list(filter(lambda x: len(x) > 10, split_by_list(self.work_text, time_periods, True)))
+        work_list = list(filter(lambda x: len(x) > 10, common.split_by_list(self.work_text, time_periods, True)))
         print(work_list)
-        new_line()
+        common.new_line()
         work_info_list: list[dict] = []
         for i, item in enumerate(work_list):
             base_info: dict = {}
@@ -187,9 +232,9 @@ class Extract:
             return int(string[:4])
 
         time_periods = sorted(time_periods, key=sort_by_prefix)
-        new_line()
+        common.new_line()
         print(time_periods)
-        new_line()
+        common.new_line()
         total_months = 0
         for i, period in enumerate(time_periods):
             if "-" not in period:
@@ -198,7 +243,7 @@ class Extract:
                 start_year, end_year = period.split("-")
                 period = f"{start_year}.01-{end_year}.01"
             if "至今" not in period and len(period) != 15:
-                period = zero_fill(period)
+                period = common.zero_fill(period)
             start_date_str, end_date_str = period.split('-')
 
             start_date = datetime.strptime(start_date_str.strip(), '%Y.%m')
@@ -232,16 +277,16 @@ class Extract:
 
     def age(self) -> int:
         pattern = r"\d{2}\岁"
-        matches = unique_list(re.findall(pattern, self.text))
+        matches = common.unique_list(re.findall(pattern, self.text))
         if matches:
             return matches[0].replace("岁", "")
         pattern = r"\b\d{4}\.\d{2}\b"
-        matches = unique_list(re.findall(pattern, self.text))
+        matches = common.unique_list(re.findall(pattern, self.text))
         if not matches:
             lac_result_process = self.lac_result_process
             if "m" in lac_result_process:
-                for item in unique_list(lac_result_process["m"]):
-                    if contains_float_or_date(item):
+                for item in common.unique_list(lac_result_process["m"]):
+                    if common.contains_float_or_date(item):
                         matches.append(item)
 
             else:
@@ -266,7 +311,7 @@ class Extract:
 
     def phone(self) -> str:
         pattern = r"1[3-9]\d{1}\s?\d{4}\s?\d{4}"
-        matches = unique_list(re.findall(pattern, self.text.replace(" ", "")))
+        matches = common.unique_list(re.findall(pattern, self.text.replace(" ", "")))
         if matches:
             return matches[0]
         return "无"
@@ -278,8 +323,8 @@ class Extract:
         :return: 电子邮箱
         """
         # self.base_info["email"] = self.email(text)
-        emails = unique_list(re.findall(email_regex, text))
-        self.text = comma_reduction(re.sub(email_regex, '', text))
+        emails = common.unique_list(re.findall(email_regex, text))
+        self.text = common.comma_reduction(re.sub(email_regex, '', text))
         if emails:
             return emails[0].replace("@qa.com", "@qq.com").replace(",", "")
         return ""
@@ -311,7 +356,7 @@ class Extract:
         print("pretreatment")
         text = self.text
         s_text = self.s_text
-        self.title_mark_point = find_occurrences(s_text, r"\s[\u4e00-\u9fa5]{4}\w?\n")
+        self.title_mark_point = common.find_occurrences(s_text, r"\s[\u4e00-\u9fa5]{4}\w?\n")
         self.title_mark_point_text = list(map(lambda x: self.read_mark_point_text(x), self.title_mark_point))
         print(self.title_mark_point_text)
         text = re.sub(r'([\w.]) +([.\w])', r"\1\2", text).replace(" ", "\n")

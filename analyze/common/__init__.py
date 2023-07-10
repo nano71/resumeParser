@@ -11,6 +11,14 @@ import re
 from datetime import datetime
 
 import pdfplumber
+from PIL import Image
+
+from parser import OCR
+
+
+def img_size(imagepath):
+    image = Image.open(imagepath)
+    return image.size
 
 
 def unique_list(original_list: list) -> list:
@@ -106,6 +114,7 @@ def is_left_right_layout(arr):
 
 # 求最大差中值
 def find_max_difference_median(nums):
+    print(nums)
     max_diff = float('-inf')  # 初始化差值为负无穷大
     max_diff_pair = None  # 初始化差值最大的相邻元素对
 
@@ -118,7 +127,6 @@ def find_max_difference_median(nums):
 
     # 计算中位数
     median = (max_diff_pair[0] + max_diff_pair[1]) / 2
-
     return median
 
 
@@ -147,44 +155,57 @@ def read_doc(path: str) -> str:
     # reader = PdfReader(output_file)
     text = ""
     weight_list = []
+    points = []
     box_list = []
     with pdfplumber.open(output_file) as pdf:
         # 遍历每个页面
         for page in pdf.pages:
             # 提取页面文本和文本位置信息
             for obj in page.extract_words():
-                text += obj["text"] + "\n"
-                x0, top, x1, bottom = obj["x0"], obj["top"], obj["x1"], obj["bottom"]
-                width = x1 - x0
-                height = bottom - top
 
+                x0, top, x1 = obj["x0"], obj["top"], obj["x1"]
+                width = x1 - x0
                 # print("Text: ", obj["text"])
                 # print("Position: x0=", x0)
                 if width > 10:
+                    text += obj["text"] + "\n"
+                    # from decimal import Decimal
                     box_list.append([x0, top, obj["text"]])
                     weight_list.append(x0)
+                    # points.append((quantize(x0), quantize(top)))
                 # print("Size: width=", width, "height=", height)
     # for page in reader.pages:
     #     text += page.extract_text()
-    if is_left_right_layout(weight_list):
-        print("左右布局")
-        mid = find_max_difference_median(sorted(weight_list))
-        print("中值:", mid)
-        # box_list =  sorted(same_row_merge(box_list), key=layout_sort)
-        box_list = same_row_merge(box_list)
-
-        first_list = list(filter(lambda x: x[0] < mid, box_list))
-        second_list = list(filter(lambda x: x[0] > mid, box_list))
-        merged_array = [x[2] for x in first_list + second_list]
-        cache = ""
-        for item in merged_array:
-            cache += item + "\n"
-        text = cache
-        new_line()
-        print(first_list, second_list)
-        new_line()
+    text = after_treatment(text, weight_list, box_list)
 
     os.remove(output_file)
+    return text
+
+
+def read_img(path: str) -> str:
+    result = json.loads(OCR.file(path))
+    rows: list[str | list] = []
+    positions = []
+    text = ""
+    if "body" in result:
+        rows = list(map(lambda x: x["word"], result["body"]["content"]["prism_wordsInfo"]))
+        positions = list(map(lambda x: x["position"], result["body"]["content"]["prism_wordsInfo"]))
+    elif "items" in result:
+        rows = list(map(lambda x: x["itemstring"], result["items"]))
+    weight_list = []
+    for i, data in enumerate(positions):
+        x_values = [item["x"] for item in data]
+        y_values = [item["y"] for item in data]
+        min_x = min(x_values)
+        max_x = max(x_values)
+        max_y = max(y_values)
+        width = max_x - min_x
+        if width > 10:
+            print(rows[i])
+            text += rows[i] + "\n"
+            rows[i] = [max_x - min_x, max_y, rows[i]]
+            weight_list.append(width)
+    text = after_treatment(text, weight_list, rows)
     return text
 
 
@@ -204,3 +225,37 @@ def same_row_merge(data_list):
         else:
             merged_data[key][2] += ' ' + item[2]  # 将文本值合并到已存在的数据项中
     return result
+
+
+def quantize(float_num):
+    from decimal import Decimal
+    return float(Decimal(float_num).quantize(Decimal("0.1"), rounding="ROUND_HALF_UP"))
+
+
+def graph_width(x0, x1):
+    return x1 - x0
+
+
+def after_treatment(text: str, weight_list: list, box_list: list) -> str:
+    print("after_treatment")
+    result = text
+    if is_left_right_layout(weight_list):
+        print("左右布局")
+        # mid = find_max_difference_median(points)
+        mid = find_max_difference_median(sorted(weight_list))
+        print("中值:", mid)
+        # box_list =  sorted(same_row_merge(box_list), key=layout_sort)
+        box_list = same_row_merge(box_list)
+
+        first_list = list(filter(lambda x: x[0] < mid, box_list))
+        second_list = list(filter(lambda x: x[0] > mid, box_list))
+        merged_array = [x[2] for x in first_list + second_list]
+        cache = ""
+        for item in merged_array:
+            cache += item + "\n"
+        result = cache
+        new_line()
+        print(first_list, second_list)
+        new_line()
+    return result
+    pass

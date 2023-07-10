@@ -11,6 +11,7 @@ import tkinter as tk
 from PIL import Image
 
 import common
+import parser
 
 
 def size(imagepath):
@@ -52,7 +53,7 @@ def test():
     elif "items" in result:
         rows = list(map(lambda x: x["itemstring"], result["items"]))
     print(rows)
-    print(common.Extract((','.join(rows), ','.join(rows))).initialize())
+    print(parser.Extract(','.join(rows)).initialize())
     common.dict2json("../cache/ocr_positions.json", positions)
     for position in positions:
         points = [(point["x"], point["y"]) for point in position]
