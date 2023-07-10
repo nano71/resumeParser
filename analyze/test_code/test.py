@@ -8,10 +8,13 @@
 
 
 import common
+import parser
 
 # text = common.read_doc("../test_data/1.docx")
-text = common.read_doc("../test_data/4.docx")
-result = common.Extract(text).initialize()
+# text = common.read_doc("../test_data/2.docx")
+text = common.read_doc("../test_data/3.docx")
+# text = common.read_doc("../test_data/4.docx")
+result = parser.Extract(text).initialize()
 print(result)
 
 

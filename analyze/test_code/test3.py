@@ -20,7 +20,7 @@ def size(imagepath):
 
 def test():
     imagepath = "../test.jpeg"
-    result = json.loads(common.OCR.file(imagepath=imagepath))
+    result = json.loads(common.OCR.file(path=imagepath))
     imagesize = size(imagepath)
     window = tk.Tk()
     scrollbar = tk.Scrollbar(window)

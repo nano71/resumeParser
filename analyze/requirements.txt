@@ -11,3 +11,4 @@ docx~=0.2.4
 pypdf2~=3.0.1
 docx2pdf~=0.1.8
 pypdf==3.8.1
+pdfplumber~=0.9.0
