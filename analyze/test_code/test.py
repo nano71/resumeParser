@@ -10,8 +10,8 @@
 import common
 import parser
 
-# text = common.read_doc("../test_data/1.docx")
-text = common.read_img("../test_data/test1.jpg")
+text = common.read_doc("../test_data/7.docx")
+# text = common.read_img("../test_data/test1.jpg")
 # text = common.read_doc("../test_data/3.docx")
 # text = common.read_doc("../test_data/4.docx")
 # text = common.read_doc("../test_data/5.docx")
