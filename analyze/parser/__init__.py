@@ -9,12 +9,11 @@ import base64
 import json
 import math
 import re
+import common
 import tkinter as tk
 from datetime import datetime, date
 from dateutil.relativedelta import relativedelta
 from LAC import LAC
-
-import common
 from ocr_ecloud import CMSSEcloudOcrClient
 
 accesskey = '613e43c93bf34345acd1786a49efbc6c'

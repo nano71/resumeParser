@@ -9,10 +9,10 @@ import json
 import os
 import re
 from datetime import datetime
-
+from docx2pdf import convert
 import pdfplumber
 from PIL import Image
-
+from decimal import Decimal
 from parser import OCR
 
 
@@ -147,7 +147,6 @@ def dict2json(file_name, the_dict):
 
 
 def read_doc(path: str) -> str:
-    from docx2pdf import convert
     output_file = './cache-{}.pdf'.format(int(datetime.timestamp(datetime.now())))
     f1 = open(output_file, 'w')
     f1.close()
@@ -228,7 +227,7 @@ def same_row_merge(data_list):
 
 
 def quantize(float_num):
-    from decimal import Decimal
+
     return float(Decimal(float_num).quantize(Decimal("0.1"), rounding="ROUND_HALF_UP"))
 
 
